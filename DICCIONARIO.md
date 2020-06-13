@@ -9,7 +9,7 @@
     <p>A diferencia de la arquitectura Von Neumann, en la arquitectura Harvard el ordenador accede a y modifica las instrucciones y los datos en memoria utilizando diferentes rutas (BUS) y métodos, lo que permite por ejemplo acceder a datos e instrucciones al mismo tiempo. Esto hace que el ordenador funcione de manera más eficaz.</p>
   </dd>
   
-  <dt>Von Neumann</dt>
+  <dt>Arquitectura Von Neumann</dt>
   <dd>
     <p>Los primeros ordenadores tenían una serie de instrucciones fijas que realizaban, por lo tanto sólo podían ejecutar unas operaciones concretas a no ser que se modificara el hardware (como una calculadora de hoy en día). La arquitectura de Von Neumann permite tratar las instrucciones (u operaciones) como parte de su memoria (datos) y por lo tanto permite modificar lo que hace el ordenador simplemente cambiando las instrucciones en vez de tener que modificar el hardware.</p>
   </dd>
