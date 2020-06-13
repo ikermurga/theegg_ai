@@ -40,6 +40,11 @@
   <p>Los distintos elementos físicos de los que consta un ordenador.</p>
   </dd>
   
+  <dt>Inteligencia Artificial</dt>
+  <dd>
+  <p>La Inteligencia Artificial (IA) es la un amplio campo en la informática dedicada a encontrar diferentes tipo de algoritmos cuyo objetivo es conseguir que los ordenadores puedan imitar y / o desarrollar diferentes capacidades humanas, ya sean capacidades concretas como tareas complejas o más abstractas como el análisis o el desarrollo.</p>
+  </dd>
+  
   <dt>Interfaz</dt>
   <dd>
     <p>La interfaz de usuario del sistema operativo es lo que permite al usuario comunicarse con el ordenador.</p>
