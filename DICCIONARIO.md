@@ -1,4 +1,9 @@
 <dl>
+  <dt>Algoritmo</dt>
+  <dd>
+  <p>Una secuencia de instrucciones para completar una tarea, de tal manera que recibiendo un mismo input obtendremos un mismo output.</p>
+  </dd>
+  
   <dt>Arduino</dt>
   <dd>
     <p>Microprocesadores / microcontroladores que permiten ejecutar un programa. No son un ordenador precisamente porque sólo pueden ejecutar un programa.</p>
@@ -37,6 +42,11 @@
   <dt>Compilador</dt>
   <dd>
   <p>Traduce un lenguaje de programación a instrucciones que el ordenador es capaz de ejecutar.</p>
+  </dd>
+  
+  <dt>Diagrama de Flujo</dt>
+  <dd>
+  <p>Representación gráfica de un algoritmo en el que aparece cada paso y decisión tomado dentro del mismo.</p>
   </dd>
   
   <dt>Editor de Código</dt>
@@ -123,6 +133,11 @@
   <dt>NoSQL</dt>
   <dd>
   <p>Base de datos que no está estructurada de un modo relacional, en el que los datos se pueden guardar de modo más flexible y adaptable (a cambio precisamente de desventajas debido a dicha flexibilidad).</p>
+  </dd>
+  
+  <dt>Notación Big-O</dt>
+  <dd>
+  <p>Explica cómo varía el esfuerzo de la computación que tiene que realizar un algoritmo en base a los valores de entrada que recibe.</p>
   </dd>
   
   <dt>Periférico</dt>
