@@ -45,6 +45,11 @@
     <p>Sistema de aparatos interrelacionados que se comunican entre sí a través de una red (sin necesidad de interacción humana) para compartir datos. Las siglas significan Internet of Things</p>
   </dd>
   
+  <dt>Java</dt>
+  <dd>
+  <p>Lenguaje de programación orientado a objetos. Permite codificar algoritmos fácilmente. Puede usarse para programar aplicaciones de Android.</p>
+  </dd>
+  
   <dt>Kernel</dt>
   <dd>
   <p>La parte más fundamental del sistema operativo, aquella que da servicios a las aplicaciones para acceder a diferentes partes del ordenador y asigna memoria disponible a las aplicaciones. Se encarga de dar prioridad a los procesos en marcha en el ordenador, así como manejar la memoria, los discos y las tareas.</p>
@@ -70,6 +75,16 @@
     <p>Gordon Moore en 1965 predijo que el número de transistores en un microprocesador se multiplicaría por dos cada año que pasara. De momento, se sigue cumpliendo.</p>
   </dd>
   
+  <dt>Lisp</dt>
+  <dd>
+  <p>Lenguaje de programación que utiliza expresiones simbólicas y prototipado.</p>
+  </dd>
+  
+  <dt>NoSQL</dt>
+  <dd>
+  <p>Base de datos que no está estructurada de un modo relacional, en el que los datos se pueden guardar de modo más flexible y adaptable (a cambio precisamente de desventajas debido a dicha flexibilidad).</p>
+  </dd>
+  
   <dt>Raspberry Pi</dt>
   <dd>
   <p>Ordenadores completos pero de una sóla placa, baratos y muy pequeños y portátiles. Aunque su función original era para la enseñanza, se usan para toda serie de proyectos en los que un ordenador sin mucha potencia (menos memoria, menos velocidad) funcionen (por ejemplo recogida de datos meteorológicos.</p>
@@ -83,6 +98,11 @@
   <dt>Programación</dt>
   <dd>
     <p>Utilizar código para indicar a un ordenador una serie de pasos que tiene que realizar. Esta serie de pasos cumplirá una o más tareas, que unidas servirán para solucionar un problema.</p>
+  </dd>
+  
+  <dt>Python</dt>
+  <dd>
+  <p>Lenguaje de programación muy popular a la hora de hacer programas de IA. Catálogo de librerías de IA muy extenso</p>
   </dd>
   
   <dt>Puertas Lógicas</dt>
@@ -99,6 +119,11 @@
     </ul>
   </dd>
   
+  <dt>R</dt>
+  <dd>
+  <p>Lenguaje de programación especializado en analizar y tratar datos.</p>
+  </dd>
+  
   <dt>Sistema Operativo</dt>
   <dd>
   <p>Son las instrucciones (o programa) de bajo nivel que funciona de puente entre el hardware y las aplicaciones que se ejecuten en el ordenador. Da recursos tanto de tiempo de uso como memoria, … a los programas que se están ejecutando. Se encuentra instalado en el disco duro. Su parte más importante es el kernel mientras que el resto de responsabiliidades del sistema operativo están enfocadas más hacía dar al usuario del ordenador acceso a sus partes y temas como la seguridad del ordenador.</p>
@@ -107,6 +132,11 @@
   <dt>Software</dt>
   <dd>
   <p>Las instrucciones que hacen que los diferentes componentes de hardware se relacionen entre si, y las instrucciones que realizan los programas.</p>
+  </dd>
+  
+  <dt>SQL</dt>
+  <dd>
+  <p>Lenguaje utilizado para manejar los datos en una base de datos relacional.</p>
   </dd>
   
   <dt>Threads</dt>
