@@ -4,6 +4,16 @@
     <p>Microprocesadores / microcontroladores que permiten ejecutar un programa. No son un ordenador precisamente porque sólo pueden ejecutar un programa.</p>
   </dd>
   
+  <dt>Arquitectura Harvard</dt>
+  <dd>
+    <p>A diferencia de la arquitectura Von Neumann, en la arquitectura Harvard el ordenador accede a y modifica las instrucciones y los datos en memoria utilizando diferentes rutas (BUS) y métodos, lo que permite por ejemplo acceder a datos e instrucciones al mismo tiempo. Esto hace que el ordenador funcione de manera más eficaz.</p>
+  </dd>
+  
+  <dt>Von Neumann</dt>
+  <dd>
+    <p>Los primeros ordenadores tenían una serie de instrucciones fijas que realizaban, por lo tanto sólo podían ejecutar unas operaciones concretas a no ser que se modificara el hardware (como una calculadora de hoy en día). La arquitectura de Von Neumann permite tratar las instrucciones (u operaciones) como parte de su memoria (datos) y por lo tanto permite modificar lo que hace el ordenador simplemente cambiando las instrucciones en vez de tener que modificar el hardware.</p>
+  </dd>
+  
   <dt>BIOS</dt>
   <dd>
     <p>Sus siglas (Basic Input/Output System - Sistema de input-output básico) indica que se trata de la parte del ordenador que al iniciarse el mismo permite al sistema operativo dar y recibir comandos del hardware.</p>
@@ -23,11 +33,6 @@
   <dt>GitHub</dt>
   <dd>
   <p>Plataforma online que permite subir y acceder a repositorios git. Permite crear tanto repositorios públicos como privados.</p>
-  </dd>
-  
-  <dt>Harvard</dt>
-  <dd>
-    <p>A diferencia de la arquitectura Von Neumann, en la arquitectura Harvard el ordenador accede a y modifica las instrucciones y los datos en memoria utilizando diferentes rutas (BUS) y métodos, lo que permite por ejemplo acceder a datos e instrucciones al mismo tiempo. Esto hace que el ordenador funcione de manera más eficaz.</p>
   </dd>
   
   <dt>Hardware</dt>
@@ -167,11 +172,6 @@
 </li>
       <li><strong>Prueba de Turing:</strong> Conocido en el mundo de la inteligencia artificial ya que fue el que ideó la prueba de Turing: una persona habla con una máquina o un humano (sin saber si es uno u otro), y si la máquina es capaz de convencer a la persona de que es una persona, demuestra que tiene inteligencia.</li>
     </ul>
-  </dd>
-  
-  <dt>Von Neumann</dt>
-  <dd>
-    <p>Los primeros ordenadores tenían una serie de instrucciones fijas que realizaban, por lo tanto sólo podían ejecutar unas operaciones concretas a no ser que se modificara el hardware (como una calculadora de hoy en día). La arquitectura de Von Neumann permite tratar las instrucciones (u operaciones) como parte de su memoria (datos) y por lo tanto permite modificar lo que hace el ordenador simplemente cambiando las instrucciones en vez de tener que modificar el hardware.</p>
   </dd>
   
 </dl>
