@@ -4,6 +4,11 @@
     <p>Microprocesadores / microcontroladores que permiten ejecutar un programa. No son un ordenador precisamente porque sólo pueden ejecutar un programa.</p>
   </dd>
   
+  <dt>Arquitectura Cliente-Servidor</dt>
+  <dd>
+  <p>Es una arquitectura en la que el servidor hospeda, envía y gestiona los recursos y servicios que usará el cliente. Todas las peticiones y servicios se transmite a través de una red.</p>
+  </dd>
+  
   <dt>Arquitectura Harvard</dt>
   <dd>
     <p>A diferencia de la arquitectura Von Neumann, en la arquitectura Harvard el ordenador accede a y modifica las instrucciones y los datos en memoria utilizando diferentes rutas (BUS) y métodos, lo que permite por ejemplo acceder a datos e instrucciones al mismo tiempo. Esto hace que el ordenador funcione de manera más eficaz.</p>
@@ -14,9 +19,19 @@
     <p>Los primeros ordenadores tenían una serie de instrucciones fijas que realizaban, por lo tanto sólo podían ejecutar unas operaciones concretas a no ser que se modificara el hardware (como una calculadora de hoy en día). La arquitectura de Von Neumann permite tratar las instrucciones (u operaciones) como parte de su memoria (datos) y por lo tanto permite modificar lo que hace el ordenador simplemente cambiando las instrucciones en vez de tener que modificar el hardware.</p>
   </dd>
   
+  <dt>Bases de Datos</dt>
+  <dd>
+  <p>Colección de información organizada de modo que se puede acceder rápidamente a los fragmentos de datos específicos dentro de la misma que nos interesan.</p>
+  </dd>
+  
   <dt>BIOS</dt>
   <dd>
     <p>Sus siglas (Basic Input/Output System - Sistema de input-output básico) indica que se trata de la parte del ordenador que al iniciarse el mismo permite al sistema operativo dar y recibir comandos del hardware.</p>
+  </dd>
+  
+  <dt>CSS</dt>
+  <dd>
+  <p>Lenguaje de marcado que se utiliza en las páginas web para dar el formato al contenido que se ha indicado en el mismo con HTML.</p>
   </dd>
   
   <dt>Compilador</dt>
@@ -38,6 +53,11 @@
   <dt>Hardware</dt>
   <dd>
   <p>Los distintos elementos físicos de los que consta un ordenador.</p>
+  </dd>
+  
+  <dt>HTML</dt>
+  <dd>
+  <p>Lenguaje de marcado que define el contenido, y le da atributos y características especiales al mismo, de una página web. Sus siglas significan (HyperText Markup Language - Lenguaje de Marcado de HyperTexto)</p>
   </dd>
   
   <dt>Inteligencia Artificial</dt>
@@ -63,6 +83,11 @@
   <dt>Java</dt>
   <dd>
   <p>Lenguaje de programación orientado a objetos. Permite codificar algoritmos fácilmente. Puede usarse para programar aplicaciones de Android.</p>
+  </dd>
+  
+  <dt>JavaScript</dt>
+  <dd>
+  <p>Lenguaje de programación interpretado (no compilado), originalmente ideado para su uso principalmente en el lado del cliente. Para el uso del cliente es el lenguaje más utilizado aunque cada vez con más frameworks en vez de utilizarlo de modo único, y también es posible utilizarlo en el lado del servidor con node.</p>
   </dd>
   
   <dt>Kernel</dt>
@@ -100,19 +125,14 @@
   <p>Base de datos que no está estructurada de un modo relacional, en el que los datos se pueden guardar de modo más flexible y adaptable (a cambio precisamente de desventajas debido a dicha flexibilidad).</p>
   </dd>
   
-  <dt>Raspberry Pi</dt>
-  <dd>
-  <p>Ordenadores completos pero de una sóla placa, baratos y muy pequeños y portátiles. Aunque su función original era para la enseñanza, se usan para toda serie de proyectos en los que un ordenador sin mucha potencia (menos memoria, menos velocidad) funcionen (por ejemplo recogida de datos meteorológicos.</p>
-  </dd>
-  
-  <dt>Repositorio de Control de Versiones</dt>
-  <dd>
-  <p>Un lugar donde se guardan las diferentes etapas del historial de cambios de un proyecto.</p>
-  </dd>
-  
   <dt>Periférico</dt>
   <dd>
   <p>Dispositivos externos al ordenador (ratón, teclado, impresora pantalla, …) que se comunican con el ordenador a través de la placa madre (y con la misma mediante buses).</p>
+  </dd>
+  
+  <dt>PHP</dt>
+  <dd>
+  <p>Lenguaje de programación generalmente ejecutado por un servidor para crear las páginas web que devuelve cuando recibe peticiones.</p>
   </dd>
   
   <dt>Programación</dt>
@@ -142,6 +162,16 @@
   <dt>R</dt>
   <dd>
   <p>Lenguaje de programación especializado en analizar y tratar datos.</p>
+  </dd>
+  
+  <dt>Raspberry Pi</dt>
+  <dd>
+  <p>Ordenadores completos pero de una sóla placa, baratos y muy pequeños y portátiles. Aunque su función original era para la enseñanza, se usan para toda serie de proyectos en los que un ordenador sin mucha potencia (menos memoria, menos velocidad) funcionen (por ejemplo recogida de datos meteorológicos.</p>
+  </dd>
+  
+  <dt>Repositorio de Control de Versiones</dt>
+  <dd>
+  <p>Un lugar donde se guardan las diferentes etapas del historial de cambios de un proyecto.</p>
   </dd>
   
   <dt>Sistema Operativo</dt>
