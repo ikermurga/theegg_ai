@@ -9,6 +9,17 @@
     <p>Sus siglas (Basic Input/Output System - Sistema de input-output básico) indica que se trata de la parte del ordenador que al iniciarse el mismo permite al sistema operativo dar y recibir comandos del hardware.</p>
   </dd>
   
+  <dt>Compilador</dt>
+  <dd>
+  <p>Traduce un lenguaje de programación a instrucciones que el ordenador es capaz de ejecutar.</p>
+  </dd>
+  
+  <dt>Editor de Código</dt>
+  <dd>
+  <p>Herramienta para escribir código del lenguaje de programación. Contiene diferentes ayudas para lenguajes de programación como el autocompletado y tienen la posibilidad de tener funcionalidades añadidas que dan más ventajas a la hora de programar a través de plugins.</p>
+  <p>Varios editores existentes: Visual Studio Code, Sublime, NetBeans, Atom, Brackets, Notepad++, Geany, Aptana, WebStorm</p>
+  </dd>
+  
   <dt>Harvard</dt>
   <dd>
     <p>A diferencia de la arquitectura Von Neumann, en la arquitectura Harvard el ordenador accede a y modifica las instrucciones y los datos en memoria utilizando diferentes rutas (BUS) y métodos, lo que permite por ejemplo acceder a datos e instrucciones al mismo tiempo. Esto hace que el ordenador funcione de manera más eficaz.</p>
@@ -24,6 +35,11 @@
     <p>La interfaz de usuario del sistema operativo es lo que permite al usuario comunicarse con el ordenador.</p>
   </dd>
   
+  <dt>Intérprete</dt>
+  <dd>
+  <p>Un programa que traduce un lenguaje de programación por partes y sin guardar el resultado de la traducción a un lenguaje que el ordenador puede ejecutar.</p>
+  </dd>
+  
   <dt>IoT</dt>
   <dd>
     <p>Sistema de aparatos interrelacionados que se comunican entre sí a través de una red (sin necesidad de interacción humana) para compartir datos. Las siglas significan Internet of Things</p>
@@ -32,6 +48,21 @@
   <dt>Kernel</dt>
   <dd>
   <p>La parte más fundamental del sistema operativo, aquella que da servicios a las aplicaciones para acceder a diferentes partes del ordenador y asigna memoria disponible a las aplicaciones. Se encarga de dar prioridad a los procesos en marcha en el ordenador, así como manejar la memoria, los discos y las tareas.</p>
+  </dd>
+  
+  <dt>Lenguaje de Alto Nivel</dt>
+  <dd>
+  <p>Un lenguaje de programación que permite escribir los comandos con palabras de fácil comprensión y que permiten un uso del lenguaje más adecuado al problema que se está solucionando que a las instrucciones específicas que tiene que ejecutar el ordenador.</p>
+  </dd>
+  
+  <dt>Lenguaje de Máquina</dt>
+  <dd>
+  <p>El código que comunica las instrucciones que tiene que ejecutar el ordenador de modo literal.</p>
+  </dd>
+  
+  <dt>Lenguaje de Programación</dt>
+  <dd>
+  <p>Permite escribir instrucciones sencillas que se van a ejecutar en un ordenador.</p>
   </dd>
   
   <dt>Ley de Moore</dt>
