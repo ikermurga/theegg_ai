@@ -20,6 +20,11 @@
   <p>Varios editores existentes: Visual Studio Code, Sublime, NetBeans, Atom, Brackets, Notepad++, Geany, Aptana, WebStorm</p>
   </dd>
   
+  <dt>GitHub</dt>
+  <dd>
+  <p>Plataforma online que permite subir y acceder a repositorios git. Permite crear tanto repositorios públicos como privados.</p>
+  </dd>
+  
   <dt>Harvard</dt>
   <dd>
     <p>A diferencia de la arquitectura Von Neumann, en la arquitectura Harvard el ordenador accede a y modifica las instrucciones y los datos en memoria utilizando diferentes rutas (BUS) y métodos, lo que permite por ejemplo acceder a datos e instrucciones al mismo tiempo. Esto hace que el ordenador funcione de manera más eficaz.</p>
@@ -88,6 +93,11 @@
   <dt>Raspberry Pi</dt>
   <dd>
   <p>Ordenadores completos pero de una sóla placa, baratos y muy pequeños y portátiles. Aunque su función original era para la enseñanza, se usan para toda serie de proyectos en los que un ordenador sin mucha potencia (menos memoria, menos velocidad) funcionen (por ejemplo recogida de datos meteorológicos.</p>
+  </dd>
+  
+  <dt>Repositorio de Control de Versiones</dt>
+  <dd>
+  <p>Un lugar donde se guardan las diferentes etapas del historial de cambios de un proyecto.</p>
   </dd>
   
   <dt>Periférico</dt>
