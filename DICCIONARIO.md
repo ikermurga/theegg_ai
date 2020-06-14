@@ -8,6 +8,16 @@ Una secuencia de instrucciones para completar una tarea, de tal manera que recib
 
 ---
 
+**Algoritmo de Cifrado Asimétrico**\
+Un algoritmo de cifrado y descifrado en el que el cifrado se puede realizar con una clave pública y se descifra con una clave privada.
+
+---
+
+**Algoritmo de Cifrado Simétrico**\
+Un algoritmo que cifra una cadena (modifica la cadena de texto original en algo ilegible) utilizando la misma clave que se utiliza para descifrar el mensaje.
+
+---
+
 **Arduino**\
 Microprocesadores / microcontroladores que permiten ejecutar un programa. No son un ordenador precisamente porque sólo pueden ejecutar un programa.
 
@@ -61,6 +71,11 @@ Representación gráfica de un algoritmo en el que aparece cada paso y decisión
 **Editor de Código**\
 Herramienta para escribir código del lenguaje de programación. Contiene diferentes ayudas para lenguajes de programación como el autocompletado y tienen la posibilidad de tener funcionalidades añadidas que dan más ventajas a la hora de programar a través de plugins.
 Varios editores existentes: Visual Studio Code, Sublime, NetBeans, Atom, Brackets, Notepad++, Geany, Aptana, WebStorm
+
+---
+
+**Funciones en Programación**\
+Una serie de instrucciones a las que podemos llamar con un nombre, e incluso mandar parámetros para que funcionen de diferente modo en vez de ejecutar lo mismo en todas las ocasiones.
 
 ---
 
