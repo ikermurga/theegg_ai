@@ -1,31 +1,13 @@
-'''
-Entrada: Número total de vacas en la zona de Azkoitia que están a la venta.
-Entrada: Peso total que el camión puede llevar.
-Entrada: Lista de pesos de las vacas.
-Entrada: Lista de la producción de leche por vaca, en litros por día.
-Salida: Cantidad máxima de producción de leche se puede obtener.
-'''
 import itertools as it
 
 
 def main():
-    # Datos con resultado: vaca 1, 4, 5, 6, total 93
-    vacas_totales = 6
-    peso_maximo_camion = 700
-    pesos_por_vaca = [360, 250, 400, 180, 50, 90]
-    litros_por_vaca = [40, 35, 43, 28, 12, 13]
-
-    # # Datos con resultado: vaca 2, 3, 4, 5, 6 total 188
-    # vacas_totales = 8
-    # peso_maximo_camion = 1000
-    # pesos_por_vaca = [223, 243, 100, 200, 200, 155, 300, 150]
-    # litros_por_vaca = [30, 34, 28, 45, 31, 50, 29, 1]
-
-    # # Datos con resultado: vaca 1, 2, 3, 4, 5, 6, 8, 9 total 320
-    # vacas_totales = 10
-    # peso_maximo_camion = 2000
-    # pesos_por_vaca = [340, 355, 223, 243, 130, 240, 260, 155, 302, 130]
-    # litros_por_vaca = [45, 50, 34, 39, 29, 40, 30, 52, 31, 1]
+    (
+        vacas_totales,
+        peso_maximo_camion,
+        pesos_por_vaca,
+        litros_por_vaca
+    ) = pedir_datos_usuario()
 
     vacas = crear_lista_de_vacas(
         vacas_totales, pesos_por_vaca, litros_por_vaca)
@@ -34,17 +16,23 @@ def main():
     mostrarResultado(litros, grupo_mas_eficiente)
 
 
-def mostrarResultado(litros, grupo_mas_eficiente):
+def pedir_datos_usuario():
     '''
-    La función recibe un número con el máximo número de litros
-    y una lista de vacas que forman el grupo más eficiente.
-    Se muestran en consola tanto los litros totales como
-    información sobre cada una de las vacas que forman el grupo
+    La función pide al usuario y devuelve el número total de vacas que están a la venta, el peso total que el camión puede llevar, la lista de pesos de las vacas y la lista de la producción de leche por vaca, en litros por día.
     '''
-    print("Los litros máximos por día son", litros)
-    print("Lo conseguimos subiendo las siguientes vacas al camión:")
-    for vaca in grupo_mas_eficiente:
-        print(vaca.info())
+    peso_maximo_camion = int(
+        input("Introduce el peso máximo que puede llevar el camión: "))
+    vacas_totales = int(input("Introduce el número total de vacas: "))
+    pesos_por_vaca = []
+    litros_por_vaca = []
+    for posicion in range(vacas_totales):
+        peso_vaca = int(
+            input(f'Introduce el peso de la vaca {posicion + 1}: '))
+        litros_vaca = int(
+            input(f'Introduce los litros por día de la vaca {posicion + 1}: '))
+        pesos_por_vaca.append(peso_vaca)
+        litros_por_vaca.append(litros_vaca)
+    return (vacas_totales, peso_maximo_camion, pesos_por_vaca, litros_por_vaca)
 
 
 def crear_lista_de_vacas(vacas_totales, pesos_por_vaca, litros_por_vaca):
@@ -84,7 +72,25 @@ def elegir_grupo_mas_eficiente(vacas, peso_maximo_camion):
     return (litros_maximos, grupo_con_litros_maximos)
 
 
+def mostrarResultado(litros, grupo_mas_eficiente):
+    '''
+    La función recibe un número con el máximo número de litros
+    y una lista de vacas que forman el grupo más eficiente.
+    Se muestran en consola tanto los litros totales como
+    información sobre cada una de las vacas que forman el grupo
+    '''
+    print("Los litros máximos por día son", litros)
+    print("Lo conseguimos subiendo las siguientes vacas al camión:")
+    for vaca in grupo_mas_eficiente:
+        print(vaca.info())
+
+
 class Vaca:
+    '''
+    Clase que crea los objetos dentro de los cuales guardaremos información sobre cada una de las vacas.
+    Incluye un método info el cual devuelve la información en una cadena de texto.
+    '''
+
     def __init__(self, numero, peso, litros):
         self.numero = numero
         self.peso = peso
