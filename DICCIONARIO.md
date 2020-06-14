@@ -1,3 +1,8 @@
+**Ada Lovelace**\
+La primera persona en programar en la historia, Ada Lovelace se basó en el diseño de una máquina analítica (el precursor del ordenador) para escribir un algoritmo que la máquina podría interpretar.
+
+---
+
 **Algoritmo**\
 Una secuencia de instrucciones para completar una tarea, de tal manera que recibiendo un mismo input obtendremos un mismo output.
 
@@ -30,6 +35,11 @@ Colección de información organizada de modo que se puede acceder rápidamente 
 
 **BIOS**\
 Sus siglas (Basic Input/Output System - Sistema de input-output básico) indica que se trata de la parte del ordenador que al iniciarse el mismo permite al sistema operativo dar y recibir comandos del hardware.
+
+---
+
+**Bucles**\
+Una serie de instrucciones que se repiten en base a una condición. Dependiendo de cómo está escrito el bucle, se puede repetir una cantidad específica de veces o una cantidad que depende de una condición que puede cambiar en cualquier momento.
 
 ---
 
@@ -115,7 +125,7 @@ El código que comunica las instrucciones que tiene que ejecutar el ordenador de
 ---
 
 **Lenguaje de Programación**\
-Permite escribir instrucciones sencillas que se van a ejecutar en un ordenador.
+Una serie de palabras claves y normas de sintáxis para combinarlas que permite escribir instrucciones sencillas que el ordenador va a poder entender y ejecutar. El ordenador puede entender estas instrucciones directamente o través de uno o más programas intermedios que traducen las instrucciones de ese lenguaje de programación a instrucciones específicas que el ordenador va a entender.
 
 ---
 
