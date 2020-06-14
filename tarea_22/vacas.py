@@ -53,7 +53,11 @@ def crear_lista_de_vacas(vacas_totales, pesos_por_vaca, litros_por_vaca):
 
 def elegir_grupo_mas_eficiente(vacas, peso_maximo_camion):
     '''
-    Crear todos los grupos posibles de vaca, utilizando la funcion combinations de itertools, lo que nos crear las posibles combinaciones de N elementos en P posiciones, por lo que lo hacemos en bucle desde 1 (sólo una vaca en el camión) hasta len(vacas) + 1 (ya que range coge un elemento menos que el indicado como segundo parámetro, esto haría que el valor mayor sea el de len(vacas), el caso en el que subimos todas las vacas al camión) (enlace a explicacion de itertools en https://realpython.com/python-itertools/). Por cada grupo que se genera, calculamos (sumando los valores de cada vaca) tanto el peso total del grupo como los litros por día producidos por el grupo. En caso de que el peso sea menor o igual al permitido en el camión y los litros producidos sean mayores que los grupos anteriores, se guarda el valor de litros por día y el grupo.
+    Crear todos los grupos posibles de vaca, utilizando la funcion combinations de itertools, lo que nos crea listas con las posibles combinaciones de N elementos en P posiciones, por lo que lo hacemos en bucle desde 1 (sólo una vaca en el camión) hasta len(vacas) + 1 (ya que range coge un elemento menos que el indicado como segundo parámetro, esto haría que el valor mayor sea el de len(vacas), el caso en el que subimos todas las vacas al camión - enlace a explicacion de itertools en https://realpython.com/python-itertools/). 
+
+    Por cada grupo que se genera, calculamos (sumando los valores de cada vaca) tanto el peso total del grupo como los litros por día producidos por el grupo. En caso de que el peso sea menor o igual al permitido en el camión y los litros producidos sean mayores que los grupos anteriores, se guarda el valor de litros por día y el grupo.
+
+    Al acabar el bucle, tendremos el máximo número de litros guardado en litros_maximos y el grupo de vacas (la lista de objetos vacas) que los genera guardados en grupo_con_litros_maximos por lo que devolvemos los dos valores.
     '''
     litros_maximos = 0
     grupo_con_litros_maximos = []
