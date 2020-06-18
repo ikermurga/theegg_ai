@@ -44,7 +44,7 @@ Los primeros ordenadores tenían una serie de instrucciones fijas que realizaban
 ---
 
 **Bases de Datos**\
-Colección de información organizada de modo que se puede acceder rápidamente a los fragmentos de datos específicos dentro de la misma que nos interesan.
+Colección de información organizada de modo que se puede acceder rápidamente a los fragmentos de datos específicos dentro de la misma que nos interesan. El acceso a los datos puede hacerse mediante diferentes métodos de filtro, búsqueda o combinación de los datos.
 
 ---
 
@@ -73,6 +73,11 @@ Dispositivo electrónico que recibe una entrada analógica de cualquier tipo en 
 
 ---
 
+**Data Pre-Processing**\
+La preparación de los datos, para su siguiente transformación y análisis, nada más recibido desde su origen (como parte del proceso ETL).
+
+---
+
 **Diagrama de Flujo**\
 Representación gráfica de un algoritmo en el que aparece cada paso y decisión tomado dentro del mismo.
 
@@ -86,6 +91,11 @@ Sistema de Nombres de Dominio. Los servidores DNS son aquellos que traducen una 
 **Editor de Código**\
 Herramienta para escribir código del lenguaje de programación. Contiene diferentes ayudas para lenguajes de programación como el autocompletado y tienen la posibilidad de tener funcionalidades añadidas que dan más ventajas a la hora de programar a través de plugins.
 Varios editores existentes: Visual Studio Code, Sublime, NetBeans, Atom, Brackets, Notepad++, Geany, Aptana, WebStorm
+
+---
+
+**ETL**\
+Siglas que provienen del inglés (Extract, Transform, Load o Extraer, Transformar, Cargar). Se refiere al proceso de recibir los datos en bruto desde el origen, transformar / modificarlos para nuestros objetivos y cargarlos en el destino de almacenamiento para posterior uso por nuestro programa.
 
 ---
 
