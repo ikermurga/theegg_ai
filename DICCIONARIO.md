@@ -3,6 +3,11 @@ La primera persona en programar en la historia, Ada Lovelace se basó en el dise
 
 ---
 
+**Álgebra Booleana**\
+Las normas que rigen las operaciones sobre valores lógicos. Hay 12 reglas que representan diferentes operaciones y difieren en resultado de las operaciones del álgebra tradicional.
+
+---
+
 **Algoritmo**\
 Una secuencia de instrucciones para completar una tarea, de tal manera que recibiendo un mismo input obtendremos un mismo output.
 
@@ -63,6 +68,11 @@ Traduce un lenguaje de programación a instrucciones que el ordenador es capaz d
 
 ---
 
+**Convertidor Analógico-digital**\
+Dispositivo electrónico que recibe una entrada analógica de cualquier tipo en su representación digital. Tanto el tipo de entrada analógica como la forma en la que lo representamos en digital puede variar.
+
+---
+
 **Diagrama de Flujo**\
 Representación gráfica de un algoritmo en el que aparece cada paso y decisión tomado dentro del mismo.
 
@@ -71,6 +81,11 @@ Representación gráfica de un algoritmo en el que aparece cada paso y decisión
 **Editor de Código**\
 Herramienta para escribir código del lenguaje de programación. Contiene diferentes ayudas para lenguajes de programación como el autocompletado y tienen la posibilidad de tener funcionalidades añadidas que dan más ventajas a la hora de programar a través de plugins.
 Varios editores existentes: Visual Studio Code, Sublime, NetBeans, Atom, Brackets, Notepad++, Geany, Aptana, WebStorm
+
+---
+
+**Frecuencia de Muestreo**\
+La cantidad de veces por segundos en las que medimos el valor de la entrada analógica en un convertidor analógico-digital.
 
 ---
 
@@ -212,6 +227,11 @@ Un lugar donde se guardan las diferentes etapas del historial de cambios de un p
 
 ---
 
+**Sistema Binario**\
+Un sistema de enumeración en el que solamente utilizamos dos dígitos (el 1 y el 2).
+
+---
+
 **Sistema Operativo**\
 Son las instrucciones (o programa) de bajo nivel que funciona de puente entre el hardware y las aplicaciones que se ejecuten en el ordenador. Da recursos tanto de tiempo de uso como memoria, … a los programas que se están ejecutando. Se encuentra instalado en el disco duro. Su parte más importante es el kernel mientras que el resto de responsabiliidades del sistema operativo están enfocadas más hacía dar al usuario del ordenador acceso a sus partes y temas como la seguridad del ordenador.
 
@@ -234,6 +254,11 @@ Un thread (o hilo) es una serie de instrucciones con sus datos asociados que se 
 
 **Transistor**\
 Circuito que puede estar en un estado de "encendido" o "apagado" (aún teniendo estados intermedios se determina que está en sólo uno de esos dos). Es la parte más básica de los procesadores de los ordenadores, que utilizan combinándolos entre ellos para poder realizar cálculos y todo tipo de operaciones lógicas.
+
+---
+
+**Transistores Bipolares**\
+Dispositivo electrónico que modifica una señal que recibe, ya sea interrumpiendo la misma o ampliandola. Constan de una base, un colector y un emisor.
 
 ---
 
