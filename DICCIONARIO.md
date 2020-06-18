@@ -78,6 +78,11 @@ Representación gráfica de un algoritmo en el que aparece cada paso y decisión
 
 ---
 
+**DNS**\
+Sistema de Nombres de Dominio. Los servidores DNS son aquellos que traducen una URL en una dirección IP concreta.
+
+---
+
 **Editor de Código**\
 Herramienta para escribir código del lenguaje de programación. Contiene diferentes ayudas para lenguajes de programación como el autocompletado y tienen la posibilidad de tener funcionalidades añadidas que dan más ventajas a la hora de programar a través de plugins.
 Varios editores existentes: Visual Studio Code, Sublime, NetBeans, Atom, Brackets, Notepad++, Geany, Aptana, WebStorm
@@ -86,6 +91,11 @@ Varios editores existentes: Visual Studio Code, Sublime, NetBeans, Atom, Bracket
 
 **Frecuencia de Muestreo**\
 La cantidad de veces por segundos en las que medimos el valor de la entrada analógica en un convertidor analógico-digital.
+
+---
+
+**FTP**\
+Protocolo usado para transmitir archivos. La secuencia de bits que permite comunicarse entre un cliente y un servidor en un modo concreto pensado para enviar / recibir archivos. Las siglas son de File Transfer Protocol (protocolo de transferencia de archivos).
 
 ---
 
@@ -126,6 +136,11 @@ Un programa que traduce un lenguaje de programación por partes y sin guardar el
 
 **IoT**\
 Sistema de aparatos interrelacionados que se comunican entre sí a través de una red (sin necesidad de interacción humana) para compartir datos. Las siglas significan Internet of Things.
+
+---
+
+**IP**\
+Sistema de transporte de datos con el que funciona internet. Viene de las siglas (Internet Protocol). Una dirección IP es un ordenador alojado dentro de este sistema, normalmente asociada a una URL y especificada bases de datos que relacionan las URLs con diferentes IPs.
 
 ---
 
@@ -194,6 +209,11 @@ Utilizar código para indicar a un ordenador una serie de pasos que tiene que re
 
 ---
 
+**Protocolo TCP/IP**\
+Compuesto por TCP (Protocolo de Control de Transmisión) e IP (Protocolo de Internet) que permiten la transmisión de datos a través de internet, de una manera en el que tanto la llegada de datos como el orden en el que llegan está garantizado.
+
+---
+
 **Python**\
 Lenguaje de programación muy popular a la hora de hacer programas de IA. Catálogo de librerías de IA muy extenso
 
@@ -224,6 +244,11 @@ Ordenadores completos pero de una sóla placa, baratos y muy pequeños y portát
 
 **Repositorio de Control de Versiones**\
 Un lugar donde se guardan las diferentes etapas del historial de cambios de un proyecto.
+
+---
+
+**Servidor Web**\
+Ordenador que ofrece recursos a los clientes que se encuentran en su red (ya sea una red local o global).
 
 ---
 
