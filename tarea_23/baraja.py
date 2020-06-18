@@ -1,10 +1,17 @@
 class Baraja:
+    # Objeto que contiene la lista de "cartas" (valores
+    # del 1 al 52 y las letras A y B) con las funciones
+    # necesarias para modificar sus posiciones según
+    # los pasos descritos en el algoritmo del solitario
     def __init__(self):
         baraja = list(map(str, [*range(1, 53)]))
         baraja.extend(['A', 'B'])
         self.baraja = baraja
 
     def mover_carta(self, valor, puestos):
+        # Función que mueve una carta específica
+        # elegida según su valor (1 a 52, A o B)
+        # en X puestos (siempre en una dirección)
         posicion_original = self.baraja.index(valor)
         nueva_posicion = posicion_original + puestos
         if nueva_posicion >= len(self.baraja):
@@ -14,6 +21,12 @@ class Baraja:
         self.baraja.insert(nueva_posicion, valor)
 
     def mover_cartas_por_comodines(self):
+        # Función que intercambia los dos bloques de
+        # cartas a ambos lados de los dos comodines
+        # (si un comodín está en un extremo de la
+        # baraja sólo se mueve un bloque, si ambos
+        # están en los extremos la baraja mantiene su
+        # posición
         posicion_comodin_a = self.baraja.index('A')
         posicion_comodin_b = self.baraja.index('B')
         if posicion_comodin_a < posicion_comodin_b:
@@ -39,6 +52,10 @@ class Baraja:
         self.baraja.extend(primer_bloque)
 
     def cortar_por_valor_ultima_carta(self):
+        # Función que mueve un bloque de cartas hacia
+        # el final (pero manteniendo la última carta
+        # en su posición). El número de cartas movido
+        # depende del valor de la última carta
         ultima_carta = self.baraja[-1]
         if ultima_carta != 'A' and ultima_carta != 'B':
             valor_ultima_carta = int(ultima_carta)
@@ -49,6 +66,10 @@ class Baraja:
             self.baraja.append(ultima_carta)
 
     def obtener_valor_de_letra(self):
+        # Función que devuelve una letra, en base
+        # al valor numérico de la carta "elegida"
+        # según el valor de la primera carta en
+        # la baraja
         primera_carta = self.baraja[0]
         if primera_carta != 'A' and primera_carta != 'B':
             valor_primera_carta = int(primera_carta)
