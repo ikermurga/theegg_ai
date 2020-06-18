@@ -3,7 +3,13 @@ from generador import GeneradorSolitario
 
 
 def main():
+    # Objeto que usaremos para pasar de letras a
+    # números (A a 1, B a 2, ...) y viceversa
     conversor = ConversorLetrasNumeros()
+
+    # Objeto que contiene la baraja y los algoritmos
+    # para seguir cada uno de los pasos necesarios
+    # para generar la clave de cifrado / descifrado
     generador = GeneradorSolitario(conversor)
 
     cifrar_o_descifrar = input_cifrar_o_descifrar()
@@ -22,6 +28,8 @@ def main():
 
 
 def input_cifrar_o_descifrar():
+    # Función que recibe una C (para indicar cifrar)
+    # o D (para indicar que el usuario desea decifrar)
     cifrar_o_descifrar = ''
     while cifrar_o_descifrar != 'C' and cifrar_o_descifrar != 'D':
         cifrar_o_descifrar = input(
@@ -31,6 +39,8 @@ def input_cifrar_o_descifrar():
 
 
 def mostrar_en_bloques(texto):
+    # Función que muestra las letras separadas en bloques
+    # de 5
     for posicion, letra in enumerate(texto):
         print(letra, end='')
         if (posicion + 1) % 5 == 0:
@@ -39,6 +49,9 @@ def mostrar_en_bloques(texto):
 
 
 def cifrar(texto, clave, conversor):
+    # Pasos a seguir para el cifrado, siendo estos convertir a
+    # numeros tanto el texto original como la clave, sumarlos
+    # y convertir el resultado en texto otra vez
     numeros_original = lista_numerica_desde_texto(texto, conversor)
     numeros_clave = lista_numerica_desde_texto(clave, conversor)
     numeros_combinados = sumar_numeros(numeros_original, numeros_clave)
@@ -47,6 +60,9 @@ def cifrar(texto, clave, conversor):
 
 
 def descifrar(texto, clave, conversor):
+    # Pasos a seguir para el descifrado, siendo estos convertir a
+    # números tanto el texto cifrado como la clave, restarlos
+    # y convertir el resultado en texto otra vez
     numeros_original = lista_numerica_desde_texto(texto, conversor)
     numeros_clave = lista_numerica_desde_texto(clave, conversor)
     numeros_combinados = restar_numeros(numeros_original, numeros_clave)
@@ -55,6 +71,8 @@ def descifrar(texto, clave, conversor):
 
 
 def texto_desde_lista_numerica(numeros, conversor):
+    # Convierte en un String una lista de números, utilizando
+    # un objeto de tipo ConversorLetrasNumeros
     resultado = ''
     for numero in numeros:
         letra = conversor.transformar_valor_a_letra(numero)
@@ -63,6 +81,8 @@ def texto_desde_lista_numerica(numeros, conversor):
 
 
 def lista_numerica_desde_texto(texto, conversor):
+    # Convierte una lista de números a un String, utilizando
+    # un objeto de tipo ConversorLetrasNumeros
     resultado = []
     for letra in texto:
         if letra != ' ':
@@ -71,6 +91,8 @@ def lista_numerica_desde_texto(texto, conversor):
 
 
 def sumar_numeros(lista1, lista2):
+    # Función que recibe dos listas y devuelve una con la
+    # suma de cada uno de los elementos
     resultado = []
     i = 0
     while i < len(lista1):
@@ -81,6 +103,8 @@ def sumar_numeros(lista1, lista2):
 
 
 def restar_numeros(lista1, lista2):
+    # Función que recibe dos listas y devuelve una con la
+    # resta de cada uno de los elementos
     resultado = []
     i = 0
     while i < len(lista1):
