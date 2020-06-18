@@ -8,6 +8,6 @@
 
 # Pasos seguidos para resolver la tarea
 
-- Seguir las instrucciones, probando cada paso, ya introduciendo listas con "barajas" parciales o completas en el programa y imprimiendo a consola el estado de la baraja para ver si los pasos se habían seguido correctamente.
+- El proceso que he seguido para llegar a la solución a sido desde el principio crear una 'baraja' (una lista con los números del 1-52 y 'A' y 'B'. Después escribí el código de cada paso y comprobaba que la baraja estaba en la posición que tendría que estar al acabar el paso (para algunos pasos usaba una lista con menos números para comprobar más fácilmente que los pasos se seguían correctamente). De este modo ha sido un proceso de ir comprobando cada paso hasta que funcionaba correctamente y pasar al siguiente, hasta llegar al último paso.
 
 - Para comprobar que funciona correctamente podemos pedir cifrar e introducir un texto. Ver el texto que sale como resultado. Después volver a ejecutar el programa pero esta vez elegir descifrar e introducir el resultado del anterior. Debería darnos el texto original que hemos introducido al cifrar.
