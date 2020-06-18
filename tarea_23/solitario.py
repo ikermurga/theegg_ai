@@ -6,15 +6,36 @@ def main():
     conversor = ConversorLetrasNumeros()
     generador = GeneradorSolitario(conversor)
 
-    # TODO: pedir texto al usuario. antes preguntar si cifrar o descifrar
-    # hacer que el resultado se muestre en bloques de 5?
-    texto = 'HOLA MUNDO'
-    clave = generador.generar_letras_secuencia_de_clave(len(texto))
-    cifrado = cifrar(texto, clave, conversor)
-    print(cifrado)
+    cifrar_o_descifrar = input_cifrar_o_descifrar()
+    if cifrar_o_descifrar == 'C':
+        texto = input('Introduce el texto a cifrar: ')
+        clave = generador.generar_letras_secuencia_de_clave(len(texto))
+        cifrado = cifrar(texto, clave, conversor)
+        print(f'El texto {texto} cifrado es:')
+        mostrar_en_bloques(cifrado)
+    else:
+        texto = input('Introduce el texto a descifrar: ')
+        clave = generador.generar_letras_secuencia_de_clave(len(texto))
+        descifrado = descifrar(texto, clave, conversor)
+        print(f'El texto {texto} descifrado es:')
+        mostrar_en_bloques(descifrado)
 
-    descifrado = descifrar(cifrado, clave, conversor)
-    print(descifrado)
+
+def input_cifrar_o_descifrar():
+    cifrar_o_descifrar = ''
+    while cifrar_o_descifrar != 'C' and cifrar_o_descifrar != 'D':
+        cifrar_o_descifrar = input(
+            "Introduce C para cifrar o D para descifrar: ")
+        cifrar_o_descifrar = cifrar_o_descifrar.upper()
+    return cifrar_o_descifrar
+
+
+def mostrar_en_bloques(texto):
+    for posicion, letra in enumerate(texto):
+        print(letra, end='')
+        if (posicion + 1) % 5 == 0:
+            print(' ', end='')
+    print()
 
 
 def cifrar(texto, clave, conversor):
