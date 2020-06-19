@@ -49,7 +49,7 @@ Los primeros ordenadores tenían una serie de instrucciones fijas que realizaban
 ---
 
 **Bases de Datos**\
-Colección de información organizada de modo que se puede acceder rápidamente a los fragmentos de datos específicos dentro de la misma que nos interesan. El acceso a los datos puede hacerse mediante diferentes métodos de filtro, búsqueda o combinación de los datos.
+Colección de información organizada de modo que se puede acceder rápidamente a los fragmentos de datos específicos dentro de la misma que nos interesan. El acceso a los datos puede hacerse mediante diferentes métodos de filtro, búsqueda o combinación de los datos. El acceso y guardado de datos se hace mediante un sistema definido que los hace más eficaces.
 
 ---
 
@@ -205,7 +205,7 @@ Lenguaje de programación que utiliza expresiones simbólicas y prototipado.
 ---
 
 **NoSQL**\
-Base de datos que no está estructurada de un modo relacional, en el que los datos se pueden guardar de modo más flexible y adaptable (a cambio precisamente de desventajas debido a dicha flexibilidad).
+Base de datos que no está estructurada de un modo relacional, en el que los datos se pueden guardar de modo más flexible y adaptable, por ejemplo la información puede estar compartida entre varios servidores en vez de tener que estar centralizada en uno único. Sus desventajas provienen precisamente de esa flexibilidad.
 
 ---
 
@@ -293,7 +293,7 @@ Las instrucciones que hacen que los diferentes componentes de hardware se relaci
 ---
 
 **SQL**\
-Lenguaje utilizado para manejar los datos en una base de datos relacional.
+Lenguaje utilizado para manejar los datos en una base de datos relacional (aquella base de datos en las que accedemos a los datos a partir de un punto y recorriendo los datos en base a sus relaciones con los otros puntos de datos).
 
 ---
 
