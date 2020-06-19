@@ -54,7 +54,7 @@ Sus siglas (Basic Input/Output System - Sistema de input-output básico) indica 
 ---
 
 **Bucles**\
-Una serie de instrucciones que se repiten en base a una condición. Dependiendo de cómo está escrito el bucle, se puede repetir una cantidad específica de veces o una cantidad que depende de una condición que puede cambiar en cualquier momento.
+Una serie de instrucciones que se repiten en base a una condición. Dependiendo de cómo está escrito el bucle, se puede repetir una cantidad específica de veces o una cantidad que depende de una condición que puede cambiar en cualquier momento. En el caso de que la condición de término no se alcance nunca, el bucle continuará hasta que detengamos el proceso, por lo que se denomina un bucle infinito.
 
 ---
 
@@ -79,7 +79,7 @@ La preparación de los datos, para su siguiente transformación y análisis, nad
 ---
 
 **Diagrama de Flujo**\
-Representación gráfica de un algoritmo en el que aparece cada paso y decisión tomado dentro del mismo.
+Representación gráfica de el proceso que sigue el programa, en el que aparece cada paso, bucle y rama posible que puede seguir.
 
 ---
 
