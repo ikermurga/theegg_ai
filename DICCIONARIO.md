@@ -79,7 +79,7 @@ La preparación de los datos, para su siguiente transformación y análisis, nad
 ---
 
 **Diagrama de Flujo**\
-Representación gráfica de el proceso que sigue el programa, en el que aparece cada paso, bucle y rama posible que puede seguir.
+Representación gráfica de el proceso que sigue un programa o algoritmo, en el que aparece cada paso, bucle y rama posible que puede seguir.
 
 ---
 
