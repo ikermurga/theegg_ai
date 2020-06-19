@@ -293,7 +293,7 @@ Las instrucciones que hacen que los diferentes componentes de hardware se relaci
 ---
 
 **SQL**\
-Lenguaje utilizado para manejar los datos en una base de datos relacional (aquella base de datos en las que accedemos a los datos a partir de un punto y recorriendo los datos en base a sus relaciones con los otros puntos de datos).
+De las siglas Structured Query Language. Lenguaje utilizado para manejar los datos en una base de datos relacional (aquella base de datos en las que accedemos a los datos a partir de un punto y recorriendo los datos en base a sus relaciones con los otros puntos de datos).
 
 ---
 
