@@ -23,6 +23,11 @@ Un algoritmo que cifra una cadena (modifica la cadena de texto original en algo 
 
 ---
 
+**API**\
+Interfaz para comunicarse aplicaciones entre ellos. Un tipo de arquitectura que permite el acceso a diferentes funciones y métodos ofrecidos por una biblioteca o programa para ser utilizado por un segundo programa.
+
+---
+
 **Arduino**\
 Microprocesadores / microcontroladores que permiten ejecutar un programa. No son un ordenador precisamente porque sólo pueden ejecutar un programa.
 
@@ -164,6 +169,11 @@ Lenguaje de programación interpretado (no compilado), originalmente ideado para
 
 ---
 
+**JSON**\
+JavaScript Object Notation, una manera de anotar como cadenas de texto objetos y variables de JavaScript. El modo de enviar más utilizado hoy en día.
+
+---
+
 **Kernel**\
 La parte más fundamental del sistema operativo, aquella que da servicios a las aplicaciones para acceder a diferentes partes del ordenador y asigna memoria disponible a las aplicaciones. Se encarga de dar prioridad a los procesos en marcha en el ordenador, así como manejar la memoria, los discos y las tareas.
 
@@ -219,13 +229,13 @@ Utilizar código para indicar a un ordenador una serie de pasos que tiene que re
 
 ---
 
-**Protocolo TCP/IP**\
-Compuesto por TCP (Protocolo de Control de Transmisión) e IP (Protocolo de Internet) que permiten la transmisión de datos a través de internet, de una manera en el que tanto la llegada de datos como el orden en el que llegan está garantizado.
+**Protocolo de Comunicación**\
+Conjunto de normas que se deben seguir para poder enviar y recibir comunicaciones en un sistema de comunicación concreto. Puede definir tanto el formato de los mensajes como el modo en el que se transmiten a través de una red.
 
 ---
 
-**Python**\
-Lenguaje de programación muy popular a la hora de hacer programas de IA. Catálogo de librerías de IA muy extenso
+**Protocolo TCP/IP**\
+Compuesto por TCP (Protocolo de Control de Transmisión) e IP (Protocolo de Internet) que permiten la transmisión de datos a través de internet, de una manera en el que tanto la llegada de datos como el orden en el que llegan está garantizado.
 
 ---
 
@@ -239,6 +249,11 @@ Combinación de diferentes modos de transistores que en ciertas configuraciones 
 - **XOR** - está apagado si ambos inputs están en el mismo estado (o ambos apagados o ambos encendidos)
 - **XNOR** - está encendido si ambos inputs están en el mismo estado (o ambos apagados o ambos encendidos)
 - **NOT** - su estado es el contrario que el del input (apagado si encendido, encendido si apagado)
+
+---
+
+**Python**\
+Lenguaje de programación muy popular a la hora de hacer programas de IA. Catálogo de librerías de IA muy extenso
 
 ---
 
@@ -302,3 +317,8 @@ Alan Mathison Turing (1912, 1954, Reino Unido)\
 
 - **Maquina de Turing:** Importancia en la programación debido a la definición de las especificaciones de la máquina de Turing, una máquina hipotética que es capaz de ejecutar cualquier algoritmo que queramos. Aunque solamente teórico y no esté demostrado completamente, se acepta como teorema veraz. Una máquina de Turing que pueda simular una máquina de Turing se denomina una maquina universal de turing (UTM Universal Turing Machine).\
 - **Prueba de Turing:** Conocido en el mundo de la inteligencia artificial ya que fue el que ideó la prueba de Turing: una persona habla con una máquina o un humano (sin saber si es uno u otro), y si la máquina es capaz de convencer a la persona de que es una persona, demuestra que tiene inteligencia.
+
+---
+
+**XML**\
+Extensible Markup Language, formato utilizado para enviar información, que consta de agrupar datos dentro de etiquetas de apertura y cierre.
