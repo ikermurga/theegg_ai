@@ -8,6 +8,6 @@
 
 - Realicé el diagrama de flujo utilizando la página de [Flowchart Maker](https://app.diagrams.net/).
 
-[Diagrama de flujo del programa](diagrama_de_flujo.png)
+![Diagrama de flujo del programa](diagrama_de_flujo.png)
 
 - Una vez visto el video y seguido el diagrama de flujo, programar el código fue seguir los pasos indicados en el diagrama.
