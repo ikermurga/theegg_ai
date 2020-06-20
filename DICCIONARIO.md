@@ -9,7 +9,7 @@ Las normas que rigen las operaciones sobre valores lógicos. Hay 12 reglas que r
 ---
 
 **Algoritmo**\
-Una secuencia de instrucciones para completar una tarea, de tal manera que recibiendo un mismo input obtendremos un mismo output.
+Una secuencia de instrucciones definidas, precisas y finitas cuyo objetivo es cumplir una tarea, de tal manera que recibiendo un mismo input obtendremos un mismo output.
 
 ---
 
@@ -73,6 +73,11 @@ Traduce un lenguaje de programación a instrucciones que el ordenador es capaz d
 
 ---
 
+**Convención de Programación**\
+Serie de normas para un lenguaje de programación que indican el estilo, prácticas y métodos que deberíamos utilizar a la hora de usarlo. Esto hace que nuestros programas sean más entendibles por otros programadores.
+
+---
+
 **Convertidor Analógico-digital**\
 Dispositivo electrónico que recibe una entrada analógica de cualquier tipo en su representación digital. Tanto el tipo de entrada analógica como la forma en la que lo representamos en digital puede variar.
 
@@ -84,7 +89,7 @@ La preparación de los datos, para su siguiente transformación y análisis, nad
 ---
 
 **Diagrama de Flujo**\
-Representación gráfica de el proceso que sigue un programa o algoritmo, en el que aparece cada paso, bucle y rama posible que puede seguir.
+Representación gráfica de el proceso que sigue un programa o algoritmo, en el que aparece cada paso, bucle y rama posible que puede seguir. Podemos utilizar símbolos definidos por antemano que nos van a indicar ciertas características de los pasos que se suponen por el símbolo específico utilizado.
 
 ---
 
