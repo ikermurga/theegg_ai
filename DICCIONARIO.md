@@ -88,6 +88,11 @@ Representación gráfica de el proceso que sigue un programa o algoritmo, en el 
 
 ---
 
+**Dirección IP**\
+Número formado por 4 bytes (normalmente representados como 4 números decimales separados por puntos) que identifica los routers y ordenadores conectados a una red. También existe el formato IPv6 que utiliza 128 para la dirección.
+
+---
+
 **DNS**\
 Sistema de Nombres de Dominio. Los servidores DNS son aquellos que traducen una URL en una dirección IP concreta.
 
@@ -149,6 +154,11 @@ Un programa que traduce un lenguaje de programación por partes y sin guardar el
 
 ---
 
+**Internet**\
+Red mundial de servidores interconectados entre cables que permiten a todo ordenador que se conecta al mismo comunicarse con cualquier otro que también esté conectado.
+
+---
+
 **IoT**\
 Sistema de aparatos interrelacionados que se comunican entre sí a través de una red (sin necesidad de interacción humana) para compartir datos. Las siglas significan Internet of Things.
 
@@ -156,6 +166,16 @@ Sistema de aparatos interrelacionados que se comunican entre sí a través de un
 
 **IP**\
 Sistema de transporte de datos con el que funciona internet. Viene de las siglas (Internet Protocol). Una dirección IP es un ordenador alojado dentro de este sistema, normalmente asociada a una URL y especificada bases de datos que relacionan las URLs con diferentes IPs.
+
+---
+
+**IP Privada**\
+Dirección IP con la que se pueden comunicar los aparatos dentro de una misma red.
+
+---
+
+**IP Pública**\
+Dirección IP con la que se puede acceder a una red desde fuera de la misma.
 
 ---
 
@@ -204,6 +224,11 @@ Lenguaje de programación que utiliza expresiones simbólicas y prototipado.
 
 ---
 
+**Máscara de Subred**\
+Una máscara de red define para un ordenador qué destinos a los que quiere acceder se encuentran fuera o dentro de la red donde se encuentra.
+
+---
+
 **NoSQL**\
 Base de datos que no está estructurada de un modo relacional, en el que los datos se pueden guardar de modo más flexible y adaptable, por ejemplo la información puede estar compartida entre varios servidores en vez de tener que estar centralizada en uno único. Sus desventajas provienen precisamente de esa flexibilidad.
 
@@ -235,7 +260,7 @@ Conjunto de normas que se deben seguir para poder enviar y recibir comunicacione
 ---
 
 **Protocolo TCP/IP**\
-Compuesto por TCP (Protocolo de Control de Transmisión) e IP (Protocolo de Internet) que permiten la transmisión de datos a través de internet, de una manera en el que tanto la llegada de datos como el orden en el que llegan está garantizado.
+Familia de protocolos para el envío de paquetes de datos por internet compuesto entre otros por TCP (Protocolo de Control de Transmisión) e IP (Protocolo de Internet) que permiten la transmisión de datos a través de internet, de una manera en el que tanto la llegada de datos como el orden en el que llegan está garantizado.
 
 ---
 
@@ -267,8 +292,23 @@ Ordenadores completos pero de una sóla placa, baratos y muy pequeños y portát
 
 ---
 
+**Red LAN**\
+Local Area Network, red local de pequeña extensión donde el usuario es el propio dueño de la red. Tiene velocidades inferiores a las redes WAN debido a el tipo de cableado utilizado internamente.
+
+---
+
+**Red WAN**\
+Wide Area Network, red de gran extensión que puede abarcar incluso países. Un ejemplo es la propia internet.
+
+---
+
 **Repositorio de Control de Versiones**\
 Un lugar donde se guardan las diferentes etapas del historial de cambios de un proyecto.
+
+---
+
+**Router**\
+Reenvía los paquetes que recibe por una de sus conexiones por el resto de las conexiones (del mismo modo que un Switch) y cuando recibe confirmación de recibo “recuerda” a qué conexión tiene que enviar otra petición a ese mismo destino. También puede crear una unión entre diferentes redes.
 
 ---
 
@@ -294,6 +334,11 @@ Las instrucciones que hacen que los diferentes componentes de hardware se relaci
 
 **SQL**\
 De las siglas Structured Query Language. Lenguaje utilizado para manejar los datos en una base de datos relacional (aquella base de datos en las que accedemos a los datos a partir de un punto y recorriendo los datos en base a sus relaciones con los otros puntos de datos).
+
+---
+
+**Switch**\
+Se encarga de estar a la escucha de paquetes de datos que le llegan a una de sus conexiones y enviarlos al resto, haciendo así que la información se transmita por la red. Su funcionamiento es como el de un Hub pero con mayor eficiencia de envío.
 
 ---
 
