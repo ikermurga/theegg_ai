@@ -1,3 +1,6 @@
+# TODO: diagrama de flujo!
+# TODO: tests con pytest?
+
 # texto = 'this is a test'
 # texto = 'foobar'
 texto = 'all your base'
