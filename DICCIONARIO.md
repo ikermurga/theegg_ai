@@ -74,7 +74,7 @@ Traduce un lenguaje de programación a instrucciones que el ordenador es capaz d
 ---
 
 **Convención de Programación**\
-Serie de normas para un lenguaje de programación que indican el estilo, prácticas y métodos que deberíamos utilizar a la hora de usarlo. Esto hace que nuestros programas sean más entendibles por otros programadores.
+Serie de normas para un lenguaje de programación que indican el estilo, prácticas y métodos que deberíamos utilizar a la hora de usarlo. Esto hace que nuestros programas sean más legibles por otros programadores.
 
 ---
 
