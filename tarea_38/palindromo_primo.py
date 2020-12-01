@@ -1,3 +1,7 @@
+# TODO: diagrama de flujo!
+# TODO: memoization para optimizar
+# TODO: tests con pytest?
+
 def esPrimo(numero):
     factor = 2
     while factor < numero/2:
