@@ -52,7 +52,11 @@ def obtener_secuencia_comun_mas_larga(secuencias_a_comparar):
 def main():
     secuencias_a_comparar = pedir_inputs()
     secuencia = obtener_secuencia_comun_mas_larga(secuencias_a_comparar)
-    print(f'La secuencia común más larga es: {secuencia}')
+    if len(secuencia) > 1:
+        print(f'La secuencia común más larga es: {secuencia}')
+    else:
+        print('No hay secuencia común entre ambas cadenas')
+    
 
 
 if __name__ == "__main__":
