@@ -1,5 +1,4 @@
 # TODO: diagrama de flujo!
-# TODO: tests con pytest?
 
 # CASOS PARA TESTS COMIENZAN AQUI
 # texto_secuencia_1 = 'ATGTCTTCCTCGA'
