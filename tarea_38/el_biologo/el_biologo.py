@@ -24,9 +24,9 @@ from extraer_secuencias import obtener_secuencia_comun_mas_larga
 
 def main():
     secuencias_a_comparar = pedir_inputs()
-    secuencia = obtener_secuencia_comun_mas_larga(secuencias_a_comparar)
-    if len(secuencia) > 1:
-        print(f'La secuencia común más larga es: {secuencia}')
+    secuencia_comun = obtener_secuencia_comun_mas_larga(secuencias_a_comparar)
+    if len(secuencia_comun) > 1:
+        print(f'La secuencia común más larga es: {secuencia_comun}')
     else:
         print('No hay secuencia común entre ambas cadenas')
 
