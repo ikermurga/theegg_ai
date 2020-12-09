@@ -25,3 +25,5 @@ for palabra in palabras_invertidas:
     print(f'{palabra} ', end='')
 
 # TODO main
+
+# TODO checkear si funciona con cadena vacia
