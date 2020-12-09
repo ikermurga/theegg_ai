@@ -28,26 +28,26 @@
 
     -   Entrada y salidas 1:
 
-        -   texto_secuencia_1 = 'ATGTCTTCCTCGA'
-        -   texto_secuencia_2 = 'TGCTTCCTATGAC'
-        -   salida correcta = 'CTTCCT'
+        -   Cadena 1: _ATGTCTTCCTCGA_
+        -   Cadena 2: _TGCTTCCTATGAC_
+        -   Salida esperada: _CTTCCT_
 
     -   Entrada y salidas 2:
 
-        -   texto_secuencia_1 = 'ctgactga'
-        -   texto_secuencia_2 = 'actgagc'
-        -   salida correcta = actga
+        -   Cadena 1: _ctgactga_
+        -   Cadena 2: _actgagc_
+        -   Salida esperada: _actga_
 
     -   Entrada y salidas 3:
 
-        -   texto_secuencia_1 = 'cgtaattgcgat'
-        -   texto_secuencia_2 = 'cgtacagtagc'
-        -   salida correcta = cgta
+        -   Cadena 1: _cgtaattgcgat_
+        -   Cadena 2: _cgtacagtagc_
+        -   Salida esperada: _cgta_
 
     -   Entrada y salidas 4:
-        -   texto_secuencia_1 = 'CTA'
-        -   texto_secuencia_2 = 'GGG'
-        -   salida correcta = No hay secuencia común entre ambas cadenas
+        -   Cadena 1: _CTA_
+        -   Cadena 2: _GGG_
+        -   Salida esperada: _No hay secuencia común entre ambas cadenas_
 
 # Pasos seguidos para resolver la sub-tarea Invertir Palabras
 
