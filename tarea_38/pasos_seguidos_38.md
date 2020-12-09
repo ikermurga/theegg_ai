@@ -27,24 +27,27 @@
 -   Para comprobar el correcto funcionamiento del programa, he utilizado estos inputs que se mostraban en el enunciado del ejercicio, añadiendo uno más en el que no hay una cadena que coincida.
 
     -   Entrada y salidas 1:
-        -- texto_secuencia_1 = 'ATGTCTTCCTCGA'
-        -- texto_secuencia_2 = 'TGCTTCCTATGAC'
-        -- salida correcta = 'CTTCCT'
+
+        -   texto_secuencia_1 = 'ATGTCTTCCTCGA'
+        -   texto_secuencia_2 = 'TGCTTCCTATGAC'
+        -   salida correcta = 'CTTCCT'
 
     -   Entrada y salidas 2:
-        -- texto_secuencia_1 = 'ctgactga'
-        -- texto_secuencia_2 = 'actgagc'
-        -- salida correcta = actga
+
+        -   texto_secuencia_1 = 'ctgactga'
+        -   texto_secuencia_2 = 'actgagc'
+        -   salida correcta = actga
 
     -   Entrada y salidas 3:
-        -- texto_secuencia_1 = 'cgtaattgcgat'
-        -- texto_secuencia_2 = 'cgtacagtagc'
-        --salida correcta = cgta
+
+        -   texto_secuencia_1 = 'cgtaattgcgat'
+        -   texto_secuencia_2 = 'cgtacagtagc'
+        -   salida correcta = cgta
 
     -   Entrada y salidas 4:
-        -- texto_secuencia_1 = 'CTA'
-        -- texto_secuencia_2 = 'GGG'
-        -- salida correcta = No hay secuencia común entre ambas cadenas
+        -   texto_secuencia_1 = 'CTA'
+        -   texto_secuencia_2 = 'GGG'
+        -   salida correcta = No hay secuencia común entre ambas cadenas
 
 # Pasos seguidos para resolver la sub-tarea Invertir Palabras
 
