@@ -1,6 +1,5 @@
-# TODO: diagrama de flujo!
 # TODO: memoization para optimizar
-# TODO: tests con pytest?
+# TODO: diagrama de flujo!
 
 def esPrimo(numero):
     factor = 2
