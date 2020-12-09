@@ -1,6 +1,3 @@
-# TODO: memoization para optimizar
-# TODO: diagrama de flujo!
-
 def esPrimo(numero):
     factor = 2
     while factor < numero/2:
@@ -24,5 +21,4 @@ while True:
     if esPalindromo(numero) and esPrimo(numero):
         print(numero)
         break
-    print(f'{numero} descartado')
     numero += 1
