@@ -61,7 +61,7 @@
 
 ![Diagrama de flujo del programa Invertir Palabras](diagrama-invertir-palabras.png)
 
--   Para comprobar el correcto funcionamiento del programa, he utilizado estos inputs que se mostraban en el enunciado del ejercicio, añadiendo uno más en el que no hay una cadena que coincida.
+-   Para comprobar el correcto funcionamiento del programa, he utilizado estos inputs que se mostraban en el enunciado del ejercicio.
 
     -   Entrada y salidas:
 
@@ -71,6 +71,7 @@
         -   Frase 3: _all your base_
 
         -   Salida esperada:
+
             **Case #1: test a is this**
 
             **Case #2: foobar**
