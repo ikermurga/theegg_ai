@@ -36,13 +36,13 @@
 
         -   Cadena 1: _ctgactga_
         -   Cadena 2: _actgagc_
-        -   Salida esperada: _actga_
+        -   Salida esperada: _ACTGA_
 
     -   Entrada y salidas 3:
 
         -   Cadena 1: _cgtaattgcgat_
         -   Cadena 2: _cgtacagtagc_
-        -   Salida esperada: _cgta_
+        -   Salida esperada: _CGTA_
 
     -   Entrada y salidas 4:
         -   Cadena 1: _CTA_
