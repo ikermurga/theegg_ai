@@ -98,10 +98,10 @@
 
         -   Entrada y salida 1:
 
-        -   Número introducido: _31_
-        -   Salida esperada: **101**
+            -   Número introducido: _31_
+            -   Salida esperada: **101**
 
         -   Entrada y salida 2:
 
-        -   Número introducido: _456789_
-        -   Salida esperada: **1003001**
+            -   Número introducido: _456789_
+            -   Salida esperada: **1003001**
