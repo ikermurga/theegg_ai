@@ -15,17 +15,31 @@ def invertir_palabras(texto):
 
     El bucle inicial crea una lista de palabras, separando las partes del texto donde se encuentra un espacio. Una vez tenemos la lista, la invertimos utilizando la función reverse (que al no devolver una lista tenemos que una vez más convertir en una lista con list()) y unimos las palabras mediante espacios con el método .join().
     '''
+    # Utilizamos indice_actual para indicar la posición actual al recorrer la
+    # cadena de texto
     indice_actual = 0
-    indice_espacio = 0
+    # En la lista palabras guardaremos las palabras que vamos a extraer de
+    # la cadena de texto original
     palabras = []
 
     # Obtenemos una lista cuyos elementos son los caracteres separados por un espacio en el texto original
     while True:
         try:
+            # Utilizamos indice_espacio para guardar la posición del caracter de espacio
+            # que hemos encontrado en el texto
             indice_espacio = texto.index(' ', indice_actual)
+            # Cuando encontramos un espacio en la cadena de texto, extraemos los caracteres
+            # desde la posición actual hasta la posición del espacio, así estamos obteniendo
+            # una "palabra"
             palabras.append(texto[indice_actual: indice_espacio])
+            # Movemos el índice actual a la posición posterior al espacio utilizado para
+            # delimitar la última palabra que hemos obtenido
             indice_actual = indice_espacio + 1
-        except Exception:  # TODO la exception especifica
+
+        # Si el método index no encuentra el caracter indicado, lanza una excepción
+        # del tipo ValueError. En este punto sabemos que sólo queda una palabra ya
+        # que no hay ningún espacio más en la cadena restante.
+        except ValueError:
             palabras.append(texto[indice_actual:])
             break
 
@@ -36,4 +50,4 @@ def invertir_palabras(texto):
 
 if __name__ == "__main__":
     main()
-# TODO checkear si funciona con cadena vacia
+# TODO checkear si funciona con cadena vacia, o tal vez impedir que se pase una cadena vacía?
