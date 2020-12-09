@@ -63,19 +63,45 @@
 
 -   Para comprobar el correcto funcionamiento del programa, he utilizado estos inputs que se mostraban en el enunciado del ejercicio.
 
-    -   Entrada y salidas:
+-   Entrada y salidas:
 
-        -   Numero de frases: 3
-        -   Frase 1: _this is a test_
-        -   Frase 2: _foobar_
-        -   Frase 3: _all your base_
+    -   Número de Frases: _3_
+    -   Frase 1: _this is a test_
+    -   Frase 2: _foobar_
+    -   Frase 3: _all your base_
 
-        -   Salida esperada:
+    -   Salida esperada:
 
-            **Case #1: test a is this**
+        **Case #1: test a is this**
 
-            **Case #2: foobar**
+        **Case #2: foobar**
 
-            **Case #3: base your all**
+        **Case #3: base your all**
 
 # Pasos seguidos para resolver la sub-tarea Palíndromo Primo
+
+-   El objetivo del programa es encontrar el número siguiente al introducido por el usuario que sea tanto palíndromo como primo. Para conseguir el objetivo, utilizamos el método **obtener_valor_inicial()** para obtener un número entero mayor que el 0, y después vamos añadiendo 1 a dicho número y comprobamos si es palíndromo (mediante **es_palindromo(numero)**) y si es primo (mediante **es_primo(numero)**). Es importante en este caso comprobar si el número es palíndromo _antes_ de comprobar si es primo, ya que cuando los números son mayores la función **es_primo** tarda mucho más en ejecutarse que la de **es_palindromo** y de este modo conseguimos no hacer cálculos sobre números que podemos descartar antes de hacerlos. Una vez encontramos un número que cumpla ambas condiciones, lo mostramos como el resultado y finalizamos el programa.
+
+-   La función auxiliar **obtener_valor_inicial** se encarga de que el usuario haya introducido un valor correcto, en este caso un número entero mayor que 0. Mientras no introduzca un número correcto se le vuelve a pedir el número al usuario. Una vez el usuario introduce un valor correcto, la función devuelve el valor.
+
+-   La función auxiliar **es_palindromo** convierte el número a una cadena de texto (string) y devuelve el resultado de comparar la cadena de texto con la cadena de texto invertida. Por lo tanto, si el número es igual leyendolo de izquierda a derecha que de derecha a izquierda, la función devolverá True y en caso contrario False.
+
+-   La función auxiliar **es_primo** comprueba que el número no es divisible por ningún número entre el 0 y si mismo. En caso de que encuentre un número por el que el recibido sea divisible devuelve False, en caso contrario al llegar al propio número introducido devuelve True.
+
+-   Este es el diagrama de flujo correspondiente al programa:
+
+![Diagrama de flujo del programa Palíndromo Primo](diagrama-palindromo-primo.png)
+
+-   Para comprobar el correcto funcionamiento del programa, he utilizado estos inputs que se mostraban en el enunciado del ejercicio.
+
+    -   Entrada y salidas:
+
+        -   Entrada y salida 1:
+
+        -   Número introducido: _31_
+        -   Salida esperada: **101**
+
+        -   Entrada y salida 2:
+
+        -   Número introducido: _456789_
+        -   Salida esperada: **1003001**
