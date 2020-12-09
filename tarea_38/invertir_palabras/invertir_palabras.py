@@ -5,7 +5,14 @@ def main():
     # texto = 'this is a test'
     # texto = 'foobar'
     texto = 'all your base'  # TODO pedir por input
+    # TODO: añadir formato de "Case #: ..." a salidas
+    print(invertir_palabras(texto))
 
+
+def invertir_palabras(texto):
+    '''
+    Invierte el orden de las palabras de un texto que recibe (contando como palabras aquellas separadas por espacios) y devuelve el resultado de esta operación.
+    '''
     indice_actual = 0
     indice_espacio = 0
     palabras = []
@@ -19,10 +26,8 @@ def main():
             palabras.append(texto[indice_actual:])
             break
 
-    palabras_invertidas = palabras[::-1]  # TODO usar reverse en vez de esto?
-    for palabra in palabras_invertidas:
-        # TODO: añdir formato de "Case #: ..." a salidas
-        print(f'{palabra} ', end='')
+    palabras_invertidas = " ".join(list(reversed(palabras)))
+    return palabras_invertidas
 
 
 if __name__ == "__main__":
