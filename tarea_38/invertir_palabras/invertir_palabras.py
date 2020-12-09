@@ -1,5 +1,7 @@
 # TODO: diagrama de flujo!
 
+# TODO : preguntar por input cuantas frases se van a voltear
+
 # texto = 'this is a test'
 # texto = 'foobar'
 texto = 'all your base'  # TODO pedir por input
