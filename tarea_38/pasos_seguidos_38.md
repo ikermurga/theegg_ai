@@ -51,4 +51,30 @@
 
 # Pasos seguidos para resolver la sub-tarea Invertir Palabras
 
+-   El objetivo del programa es invertir un número determinado de cadenas de texto que el usuario indique. La definición de invertir en este caso concreto es en separar las "palabras" cuando se encuentra un caracter de espacio y mostrarlas en orden inverso. Por lo tanto este programa consta de dos partes (dividades en dos funciones). Por un lado, pedimos al usuario que indique el número de frases que quiere introducir (**obtener_numero_frases()**) después en un bucle (dentro de la función **main()**) pediremos las frases que ha indicado y llamaremos a la función **invertir_palabras()** para que nos devuelva la frase invertida. Finalmente, mostraremos el listado creado a partir de guardar las frases invertidasd con el formato **Case #x:** indicado en el enunciado. No se hace ningún tipo de validación de las frases introducidas por el usuario ya que estas pueden ser de cualquier tipo. Simplemente, si la frase no contiene un espacio, se muestra tal como fue introducida por el usuario.
+
+-   La función auxiliar **obtener_numero_frases** se encarga de que el usuario haya introducido un valor correcto para indicar el número de frases que quiere invertir. Sólo acepta que se introduzca un número entero positivo mayor que cero. Una vez el usuario introduce un valor correcto, la función devuelve el valor.
+
+-   La función auxiliar **invertir_palabras** Invierte el orden de las palabras de un texto que recibe. Para ello en un bucle inicial crea una lista de palabras, separando las partes del texto donde se encuentra un espacio. Una vez tenemos la lista, la invertimos utilizando la función reverse (que al no devolver una lista tenemos que una vez más convertir en una lista con list()) y unimos las palabras mediante espacios con el método .join().
+
+-   Este es el diagrama de flujo correspondiente al programa:
+
+![Diagrama de flujo del programa Invertir Palabras](diagrama-invertir-palabras.png)
+
+-   Para comprobar el correcto funcionamiento del programa, he utilizado estos inputs que se mostraban en el enunciado del ejercicio, añadiendo uno más en el que no hay una cadena que coincida.
+
+    -   Entrada y salidas:
+
+        -   Numero de frases: 3
+        -   Frase 1: _this is a test_
+        -   Frase 2: _foobar_
+        -   Frase 3: _all your base_
+
+        -   Salida esperada:
+            **Case #1: test a is this**
+
+            **Case #2: foobar**
+
+            **Case #3: base your all**
+
 # Pasos seguidos para resolver la sub-tarea Palíndromo Primo
