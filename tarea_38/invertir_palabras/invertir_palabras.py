@@ -21,6 +21,7 @@ while True:
 
 palabras_invertidas = palabras[::-1]  # TODO usar reverse en vez de esto?
 for palabra in palabras_invertidas:
+    # TODO: añdir formato de "Case #: ..." a salidas
     print(f'{palabra} ', end='')
 
 # TODO main
