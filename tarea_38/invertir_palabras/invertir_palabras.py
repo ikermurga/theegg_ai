@@ -1,5 +1,4 @@
 # TODO: diagrama de flujo!
-# TODO: tests con pytest?
 
 # texto = 'this is a test'
 # texto = 'foobar'
@@ -9,6 +8,7 @@ continuar = True
 indice_actual = 0
 indice_espacio = 0
 palabras = []
+# TODO: cambiar a un while True con break
 while continuar:
     try:
         indice_espacio = texto.index(' ', indice_actual)
