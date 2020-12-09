@@ -8,7 +8,7 @@
 
 # Pasos seguidos para resolver la tarea
 
--   En todos los casos realicé el diagrama de flujo utilizando la página de [Flowchart Maker](https://app.diagrams.net/). Estos diagramas se muestran en este archivo .md dentro de la sección en la que se mencionan los pasos seguidos para resolver cada tarea, pero se puede hacer click en el mismo para poder ver una versión ampliada.
+-   En todos los casos realicé el diagrama de flujo utilizando la página de [Flowchart Maker](https://app.diagrams.net/). Estos diagramas se muestran en este archivo .md dentro de la sección en la que se mencionan los pasos seguidos para resolver cada tarea, pero se puede hacer click derecho en el mismo y descargar o elegir la opción de abrir imagen en pestaña nueva para poder ver una versión ampliable.
 
 # Pasos seguidos para resolver la sub-tarea El Biólogo
 
