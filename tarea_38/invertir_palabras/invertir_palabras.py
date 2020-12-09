@@ -1,12 +1,33 @@
-# TODO: diagrama de flujo!
+# TODO: añadir ejemplo de entradas y salidas en el readme
+# texto = 'this is a test'
+# texto = 'foobar'
+# texto = 'all your base'
+
 def main():
+    '''
+    La función principal pide al usuario el número de frases que quiere invertir
+    y después en bucle pregunta al usuario cada frase y la va guardando invertida
+    en la lista _frases_. Una vez tiene las frases necesarias, las muestra con
+    el formato _Case #{indice}:_ pedido en el ejercicio.
+
+    No se hace ningún tipo de validación de las frases introducidas por el usuario
+    ya que estas pueden ser de cualquier tipo. Simplemente, si la frase no contiene
+    un espacio, se muestra tal como fue introducida por el usuario.
+
+    La función auxiliar obtener_numero_frases se encarga de que el usuario haya 
+    introducido un valor correcto para indicar el número de frases que quiere
+    invertir.
+    '''
     numero_frases = obtener_numero_frases()
-    print(numero_frases)
-    # texto = 'this is a test'
-    # texto = 'foobar'
-    texto = 'all your base'  # TODO pedir por input
-    # TODO: añadir formato de "Case #: ..." a salidas
-    print(invertir_palabras(texto))
+    frases = []
+
+    for _ in range(numero_frases):
+        texto = input('Introduce la frase a invertir: ')
+        texto = invertir_palabras(texto)
+        frases.append(texto)
+
+    for indice, frase in enumerate(frases):
+        print(f'Case #{indice + 1}: {frase}')
 
 
 def obtener_numero_frases():
@@ -72,4 +93,3 @@ def invertir_palabras(texto):
 
 if __name__ == "__main__":
     main()
-# TODO checkear si funciona con cadena vacia, o tal vez impedir que se pase una cadena vacía?
