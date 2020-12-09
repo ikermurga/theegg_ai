@@ -1,12 +1,32 @@
 # TODO: diagrama de flujo!
 def main():
-    # TODO : preguntar por input cuantas frases se van a voltear
-
+    numero_frases = obtener_numero_frases()
+    print(numero_frases)
     # texto = 'this is a test'
     # texto = 'foobar'
     texto = 'all your base'  # TODO pedir por input
     # TODO: añadir formato de "Case #: ..." a salidas
     print(invertir_palabras(texto))
+
+
+def obtener_numero_frases():
+    '''
+    Esta función pide por input al usuario el número de frases que quiere invertir.
+    Sólo acepta que se introduzca un número entero positivo mayor que cero. Una vez
+    el usuario introduce un valor correcto, la función devuelve el valor.
+    '''
+    while True:
+        try:
+            numero_frases = int(
+                input('Introduce el número de frases a invertir: '))
+            if numero_frases > 0:
+                break
+            else:
+                print('Debes introducir un número mayor que el cero.')
+        except ValueError:
+            print('Debes introducir un número entero.')
+
+    return numero_frases
 
 
 def invertir_palabras(texto):
