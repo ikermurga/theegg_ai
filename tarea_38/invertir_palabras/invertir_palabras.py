@@ -1,8 +1,3 @@
-# TODO: añadir ejemplo de entradas y salidas en el readme
-# texto = 'this is a test'
-# texto = 'foobar'
-# texto = 'all your base'
-
 def main():
     '''
     La función principal pide al usuario el número de frases que quiere invertir
