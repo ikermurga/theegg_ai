@@ -28,10 +28,12 @@ def invertir_palabras(texto):
             # Utilizamos indice_espacio para guardar la posición del caracter de espacio
             # que hemos encontrado en el texto
             indice_espacio = texto.index(' ', indice_actual)
+
             # Cuando encontramos un espacio en la cadena de texto, extraemos los caracteres
             # desde la posición actual hasta la posición del espacio, así estamos obteniendo
             # una "palabra"
             palabras.append(texto[indice_actual: indice_espacio])
+
             # Movemos el índice actual a la posición posterior al espacio utilizado para
             # delimitar la última palabra que hemos obtenido
             indice_actual = indice_espacio + 1
