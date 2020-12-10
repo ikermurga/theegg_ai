@@ -8,4 +8,6 @@
 
     -   Ejercicio a: **Red con servidor web y servidor de DNS** guardado como **a-red-con-servidor-web-y-servidor-de-dns.pkt**. Para comprobar que funcione correctamente, abrirlo, hacer click en tanto PC0 como PC1, en la pestaña _Desktop_ ir a _Web Browser_ e introducir *www.mipagina.com* en el navegador. Debería mostrarse una página que contiene el texto _Página web en el servidor Web_.
 
-    -   Ejercicio b: **Red con servidor DHCP** guardado como
+    -   Ejercicio b: **Red con servidor DHCP** guardado como **b-red-con-servidor-dhcp.pkt**. Para comprobar que todo funciona correctamente, se pueden enviar paquetes UDP simples entre los pcs haciendo click en el icono del sobre con el + y después clickando en el pc de origen y el de destino. Se puede comprobar que los pcs obtienen su IP a través de DHCP clickando en cualquiera de ellos haciendo click en _Ip Configuration_ y viendo que está seleccionado DHCP. Se puede seleccionar _Static_ para resetear el ip del pc y volver a elegir _DHCP_ para ver cómo se le asigna una ip dinámicamente.
+
+    -   Ejercicio c: **Red VLAN básica** guardado como **c-red-vlan-basica.pkt**.
