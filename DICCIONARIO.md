@@ -74,7 +74,7 @@ Traduce un lenguaje de programación a instrucciones que el ordenador es capaz d
 ---
 
 **Convención de Programación**\
-Serie de normas para un lenguaje de programación que indican el estilo, prácticas y métodos que deberíamos utilizar a la hora de usarlo. Esto hace que nuestros programas sean más legibles por otros programadores.
+Serie de normas para un lenguaje de programación que indican el estilo, prácticas y métodos que deberíamos utilizar a la hora de usarlo. Esto hace que nuestros programas sean más entendibles por otros programadores.
 
 ---
 
@@ -160,7 +160,7 @@ Un programa que traduce un lenguaje de programación por partes y sin guardar el
 ---
 
 **Internet**\
-Red mundial de servidores interconectados entre cables que permiten a todo ordenador que se conecta al mismo comunicarse con cualquier otro que también esté conectado.
+Red mundial de servidores interconectados entre cables (u otros medios físicos de comunicación inalámbrico) que permiten a todo ordenador que se conecta al mismo comunicarse con cualquier otro que también esté conectado. Podemos pensar en internet como una red que a su mismo conecta distintas subredes entre ellas, o en otras palabras en una red de redes.
 
 ---
 
@@ -272,13 +272,13 @@ Familia de protocolos para el envío de paquetes de datos por internet compuesto
 **Puertas Lógicas**\
 Combinación de diferentes modos de transistores que en ciertas configuraciones cumplen normas dependiendo de su objetivo.
 
-- **AND** - sólo está encendido si ambos inputs están encendidos
-- **NAND** - sólo está apagado si ambos inputs están encendidos
-- **OR** - está encendido si cualquiera de los dos input están encendidos
-- **NOR** - está apagado si cualquiera de los dos inputs están encendidos
-- **XOR** - está apagado si ambos inputs están en el mismo estado (o ambos apagados o ambos encendidos)
-- **XNOR** - está encendido si ambos inputs están en el mismo estado (o ambos apagados o ambos encendidos)
-- **NOT** - su estado es el contrario que el del input (apagado si encendido, encendido si apagado)
+-   **AND** - sólo está encendido si ambos inputs están encendidos
+-   **NAND** - sólo está apagado si ambos inputs están encendidos
+-   **OR** - está encendido si cualquiera de los dos input están encendidos
+-   **NOR** - está apagado si cualquiera de los dos inputs están encendidos
+-   **XOR** - está apagado si ambos inputs están en el mismo estado (o ambos apagados o ambos encendidos)
+-   **XNOR** - está encendido si ambos inputs están en el mismo estado (o ambos apagados o ambos encendidos)
+-   **NOT** - su estado es el contrario que el del input (apagado si encendido, encendido si apagado)
 
 ---
 
@@ -304,6 +304,11 @@ Local Area Network, red local de pequeña extensión donde el usuario es el prop
 
 **Red WAN**\
 Wide Area Network, red de gran extensión que puede abarcar incluso países. Un ejemplo es la propia internet.
+
+---
+
+**Redes Informáticas**\
+También denominadas _redes de comunicaciones de datos_ y _redes de computadoras_, son un número de sistemas informáticos conectados entre sí mediante una serie de dispositivos que les permite compartir información en paquetes de datos mediante distintos tipos de medios físicos. Del mismo modo que otros procesos de comunicación cuenta con un emisor, un receptor y un mensaje, así como un medio de transmisión y un protocolo para estandarizar la comunicación (siendo el más comñun el TCP/IP).
 
 ---
 
@@ -365,8 +370,8 @@ Dispositivo electrónico que modifica una señal que recibe, ya sea interrumpien
 **Turing**\
 Alan Mathison Turing (1912, 1954, Reino Unido)\
 
-- **Maquina de Turing:** Importancia en la programación debido a la definición de las especificaciones de la máquina de Turing, una máquina hipotética que es capaz de ejecutar cualquier algoritmo que queramos. Aunque solamente teórico y no esté demostrado completamente, se acepta como teorema veraz. Una máquina de Turing que pueda simular una máquina de Turing se denomina una maquina universal de turing (UTM Universal Turing Machine).\
-- **Prueba de Turing:** Conocido en el mundo de la inteligencia artificial ya que fue el que ideó la prueba de Turing: una persona habla con una máquina o un humano (sin saber si es uno u otro), y si la máquina es capaz de convencer a la persona de que es una persona, demuestra que tiene inteligencia.
+-   **Maquina de Turing:** Importancia en la programación debido a la definición de las especificaciones de la máquina de Turing, una máquina hipotética que es capaz de ejecutar cualquier algoritmo que queramos. Aunque solamente teórico y no esté demostrado completamente, se acepta como teorema veraz. Una máquina de Turing que pueda simular una máquina de Turing se denomina una maquina universal de turing (UTM Universal Turing Machine).\
+-   **Prueba de Turing:** Conocido en el mundo de la inteligencia artificial ya que fue el que ideó la prueba de Turing: una persona habla con una máquina o un humano (sin saber si es uno u otro), y si la máquina es capaz de convencer a la persona de que es una persona, demuestra que tiene inteligencia.
 
 ---
 
