@@ -48,6 +48,18 @@ Los primeros ordenadores tenían una serie de instrucciones fijas que realizaban
 
 ---
 
+**Ataque DDoS**\
+
+Tipo de _ataque informático_ cuyas siglas significan _Distributed Denial of Service_ (Denegación de Servicio Distribuido) que trata de utilizar múltiples ordenadores de modo simultaneo (de ahí _distribuido_) para enviar multitud de solicitudes simultáneas a un servicio en concreto. Esto puede causar una caída bien del servidor en sí o de la aplicación, siendo el resultado que el servicio deje de funcionar (y esta es la parte de _denegación de servicio_). Sería posible ejecutar un ataque DoS (Denegación de Servicio) desde un solo ordenador pero esto es mucho más fácil de detener.
+
+---
+
+**Ataque informático**\
+
+También conocido como ciberataque, es una maniobra ofensiva de explotación deliberada que tiene como objetivo tomar el control, desestabilizar o dañar un sistema informático. Puede ser llevada a cabo por individuos u organizaciones y el ataque puede estar dirigido a cualquier sistema de información como son las infraestructuras, redes computaciones o bases de datos albergadas en servidores remotos.
+
+---
+
 **Bases de Datos**\
 Colección de información organizada de modo que se puede acceder rápidamente a los fragmentos de datos específicos dentro de la misma que nos interesan. El acceso a los datos puede hacerse mediante diferentes métodos de filtro, búsqueda o combinación de los datos. El acceso y guardado de datos se hace mediante un sistema definido que los hace más eficaces.
 
@@ -80,6 +92,12 @@ Serie de normas para un lenguaje de programación que indican el estilo, prácti
 
 **Convertidor Analógico-digital**\
 Dispositivo electrónico que recibe una entrada analógica de cualquier tipo en su representación digital. Tanto el tipo de entrada analógica como la forma en la que lo representamos en digital puede variar.
+
+---
+
+**Cracker**\
+
+Persona que con fines maliciosos intenta acceder a sistemas informáticos ajenos utilizando cualquier tipo de técnica de _ataque informático_.
 
 ---
 
@@ -134,6 +152,12 @@ Plataforma online que permite subir y acceder a repositorios git. Permite crear 
 
 ---
 
+**Hacker**\
+
+Persona que se dedica a estudiar las debilidades y posibilidades no documentadas en sistemas informáticos, con fines legales (a diferencia de un _cracker_).
+
+---
+
 **Hardware**\
 Los distintos elementos físicos de los que consta un ordenador.
 
@@ -141,6 +165,12 @@ Los distintos elementos físicos de los que consta un ordenador.
 
 **HTML**\
 Lenguaje de marcado que define el contenido, y le da atributos y características especiales al mismo, de una página web. Sus siglas significan (HyperText Markup Language - Lenguaje de Marcado de HyperTexto)
+
+---
+
+**Ingeniería social**\
+
+Técnicas utilizadas como parte de un _ataques informático_ cuyo objetivo es manipular a las personas para que compartan información confidencial o incluso para que lleven a cabo acciones que abran la puerta a un ataque posterior.
 
 ---
 
@@ -161,6 +191,12 @@ Un programa que traduce un lenguaje de programación por partes y sin guardar el
 
 **Internet**\
 Red mundial de servidores interconectados entre cables (u otros medios físicos de comunicación inalámbrico) que permiten a todo ordenador que se conecta al mismo comunicarse con cualquier otro que también esté conectado. Podemos pensar en internet como una red que a su mismo conecta distintas subredes entre ellas, o en otras palabras en una red de redes.
+
+---
+
+**Inyección SQL**\
+
+Tipo de _ataque informático_ que consta de aprovechar _campos de formulario_ u otros puntos débiles en una aplicación web para añadir código de SQL que se va a ejecutar en el servidor de la aplicación. Con esta técnica se puede acceder a la base de datos ya sea para leer datos a los que no debería tener acceso o incluso para modificar o eliminarlos.
 
 ---
 
@@ -229,6 +265,12 @@ Lenguaje de programación que utiliza expresiones simbólicas y prototipado.
 
 ---
 
+**Man in the middle**\
+
+Tipo de _ataque informático_ que consiste en interceptar la comunicación entre dos sistemas. Esto da al ataquenta la posibilidad no sólo de escuchar las comunicaciones sino también de modificar la comunicación que ven entre ellos.
+
+---
+
 **Máscara de Subred**\
 Una máscara de red define para un ordenador qué destinos a los que quiere acceder se encuentran fuera o dentro de la red donde se encuentra.
 
@@ -244,8 +286,20 @@ Explica cómo varía el esfuerzo de la computación que tiene que realizar un al
 
 ---
 
+**Pentesting**\
+
+Abreviatura de las palabras _penetration testing_ (test de penetración). Se refiere a la práctica de intentar realizar ataques informáticos contra un sistema con permiso para hacerlo y con el fin de encontrar vulnerabilidades u otros fallos de seguirdad presentes en el mismo. De este modo, el sistema puede intentar arreglar esos fallos para que un ataque _real_ no pueda utilizar esas técnicas.
+
+---
+
 **Periférico**\
 Dispositivos externos al ordenador (ratón, teclado, impresora pantalla, …) que se comunican con el ordenador a través de la placa madre (y con la misma mediante buses).
+
+---
+
+**Phising**\
+
+Técnica de _ingeniería social_ en la que se hace creer a la víctima que consiste en suplantar a alguien en que la victima confía para poder así obtener información o conseguir que lleve a cabo una acción como parte de un _ataque informático_.
 
 ---
 
@@ -377,3 +431,9 @@ Alan Mathison Turing (1912, 1954, Reino Unido)\
 
 **XML**\
 Extensible Markup Language, formato utilizado para enviar información, que consta de agrupar datos dentro de etiquetas de apertura y cierre.
+
+---
+
+**XSS**\
+
+Tipo de _ataque informático_ cuyas siglas corresponden a _Cross-Site-Scripting_ (ya que en inglés la x se puede utilizar con el sentido de _cross_). Es un tipo de vulnerabilidad informática o agujero de seguridad típico de las aplicaciones Web, que puede permitir a una tercera persona inyectar en páginas web visitadas por el usuario código JavaScript o en otro lenguaje similar. De ahí su nombre, ya que estamos inyectando un _script_ a través de otro site.
