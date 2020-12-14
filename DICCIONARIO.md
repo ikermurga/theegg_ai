@@ -98,6 +98,12 @@ Persona que con fines maliciosos intenta acceder a sistemas informáticos ajenos
 
 ---
 
+**Crawling**\
+
+El _crawling_ (que podemos traducir como _arrastrase_) es una técnica en la que un tipo de programa automático (denominado _crawler_ o _araña_, siendo un tipo de _bot_ específico) se arrastra por las diferentes páginas webs imitando el comportamiento humano e inspeccionando las páginas de la web de una forma metódica y automatizada. Parte de este proceso será realizar la extracción de datos que las páginas tienen (_scrapping_) de tal manera que los datos que el crawler obtiene de las páginas web pueden ser utilizados por nuestra aplicación.
+
+---
+
 **Data Pre-Processing**\
 La preparación de los datos, para su siguiente transformación y análisis, nada más recibido desde su origen (como parte del proceso ETL).
 
@@ -126,6 +132,11 @@ Varios editores existentes: Visual Studio Code, Sublime, NetBeans, Atom, Bracket
 
 **ETL**\
 Siglas que provienen del inglés (Extract, Transform, Load o Extraer, Transformar, Cargar). Se refiere al proceso de recibir los datos en bruto desde el origen, transformar / modificarlos para nuestros objetivos y cargarlos en el destino de almacenamiento para posterior uso por nuestro programa.
+
+---
+
+**Expresiones Regulares**\
+Una expresión regular (abreviado a menudo como _regex_ o _regexp_) es una cadena de texto especial para describir un patrón de busqueda que permite encontrar una determinada combinación de caracteres en una cadena de texto. Muchas aplicaciones y lenguajes de programación son capaces de ejecutar expresiones regulares, lo que permite obtener resultados de búsquedas complejas en menor tiempo y líneas de código.
 
 ---
 
@@ -314,6 +325,20 @@ Familia de protocolos para el envío de paquetes de datos por internet compuesto
 
 ---
 
+**Procesamiento del Lenguaje Natural**\
+Campo de la _Inteligencia Artificial_ que se ocupa de la investigar la manera de comunicar las máquinas con las personas mediante el uso de lenguas naturales. Aunque el PLN esté más avanzado en la expresión escrita (dado que es más fácil traducirla a formato electrónico) también se incluyen la comunicación oral y mediante signos.
+
+A la hora de que un programa analice un lenguaje hace falta un modelización matemática del mismo. Hay dos aproximaciones generales siendo una los _Modelos Lógicos_ o _gramáticas_ donde se analizan las normas gramaticales para reconocer patrones de la comunicación a la hora de interpretarlos y el otro tipo de modelo el de _Modelos probabilísticos del lenguaje natural_, que están basados en datos. Este último se adapta mejor al _aprendizaje automático_ que se ha impuesto como modo de crear modelos en la inteligencia artificial.A continuación, vemos algunos de los componentes del procesamiento del lenguaje natural. No todos los análisis que se describen se aplican en cualquier tarea de PLN, sino que depende del objetivo de la aplicación.
+
+Como parte del procesamiento del lenguaje natural se pueden hacer distintos tipos de análisis, que se llevarán a cabo o no dependiendo del objetivo de la aplicación. Estos son:
+
+    -Análisis morfológico o léxico. Consiste en el análisis interno de las palabras que forman oraciones para extraer lemas, rasgos flexivos, unidades léxica compuestas. Es esencial para la información básica: categoría sintáctica y significado léxico.
+    -Análisis sintáctico. Consiste en el análisis de la estructura de las oraciones de acuerdo con el modelo gramatical empleado (lógico o estadístico).
+    -Análisis semántico. Proporciona la interpretación de las oraciones, una vez eliminadas las ambigüedades morfosintácticas.
+    -Análisis pragmático. Incorpora el análisis del contexto de uso a la interpretación final. Aquí se incluye el tratamiento del lenguaje figurado (metáfora e ironía) como el conocimiento del mundo específico necesario para entender un texto especializado.
+
+---
+
 **Puertas Lógicas**\
 Combinación de diferentes modos de transistores que en ciertas configuraciones cumplen normas dependiendo de su objetivo.
 
@@ -364,6 +389,11 @@ Un lugar donde se guardan las diferentes etapas del historial de cambios de un p
 
 **Router**\
 Reenvía los paquetes que recibe por una de sus conexiones por el resto de las conexiones (del mismo modo que un Switch) y cuando recibe confirmación de recibo “recuerda” a qué conexión tiene que enviar otra petición a ese mismo destino. También puede crear una unión entre diferentes redes.
+
+---
+
+**Scrapping**\
+El _data scrapping_ (cuya traducción literal sería _raspado de datos_) consiste en automatizar la extracción, conversión y almacenaje de datos de un formato diferente al que nuestra aplicación necesita. Aunque el scrapping de datos es el más común, también puede hacerse de imágenes, videos o cualquier tipo de archivo. Un tipo específico de scrapping sería el _web scrapping_ que consiste en extraer datos de páginas de internet, para lo cual no es suficiente con el scrapping como tal sino también tendremos que utilizar el _crawling_ para acceder a y navegar por las páginas web.
 
 ---
 
