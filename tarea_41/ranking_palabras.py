@@ -3,6 +3,8 @@ import re
 
 def main():
     texto = obtener_texto()
+    if texto == None:
+        return
 
     conteo = contar_caracteres(texto)
     mostrar_conteos_caracteres(*conteo)
@@ -62,10 +64,14 @@ def mostrar_conteos_caracteres(num_caracteres, num_caracteres_sin_espacios_en_bl
 
 
 def obtener_texto():
-    # Utilizamos encoding='utf8' para que muestre correctamente las palabras con tilde etc en consola
-    with open('texto.txt', 'r', encoding='utf8') as file:
-        texto = file.read()
-    return texto
+    try:
+        # Utilizamos encoding='utf8' para que muestre correctamente las palabras con tilde etc en consola
+        with open('texto.txt', 'r', encoding='utf8') as file:
+            texto = file.read()
+        return texto
+    except FileNotFoundError:
+        print('Debes tener un archivo llamado "texto.txt" en la carpeta donde se está ejecutando el programa.')
+        return None
 
 
 if __name__ == "__main__":
