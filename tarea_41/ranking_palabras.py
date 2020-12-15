@@ -1,5 +1,7 @@
 import re
 
+# TODO: se ordena antes z que ú en palabras, por qué??? arreglar!!
+
 
 def main():
     texto = obtener_texto()
@@ -8,6 +10,8 @@ def main():
 
     conteo = contar_caracteres(texto)
     mostrar_conteos_caracteres(*conteo)
+
+    mostrar_separacion()
 
     ranking = clasificar_palabras(texto)
     mostrar_palabras(ranking)
@@ -24,6 +28,7 @@ def clasificar_palabras(texto):
 
     # Ordenamos palabras por número de ocurrencias (de mayor a menor)
     # y después alfabeticamente por la palabra en sí
+    # TODO: ordena antes z que ú, corregir esto!!!
     palabras_clasificadas.sort(key=lambda p: (-p['ocurrencias'], p['palabra']))
 
     return palabras_clasificadas
@@ -60,7 +65,6 @@ def mostrar_conteos_caracteres(num_caracteres, num_caracteres_sin_espacios_en_bl
     print(
         f'El número de caracteres sin contar los espacios en blanco es: {num_caracteres_sin_espacios_en_blanco}')
     print(f'El número de palabras es: {num_palabras}')
-    print()
 
 
 def obtener_texto():
@@ -72,6 +76,10 @@ def obtener_texto():
     except FileNotFoundError:
         print('Debes tener un archivo llamado "texto.txt" en la carpeta donde se está ejecutando el programa.')
         return None
+
+
+def mostrar_separacion():
+    print('\n----\n')
 
 
 if __name__ == "__main__":
