@@ -5,13 +5,10 @@ import locale
 def main():
     '''
     Función de inicio del programa, primero intenta extraer el texto del archivo de texto, en caso de que no se obtenga una cadena de texto se acaba la ejecución.
-    En caso de que funcione, se cuentan los caracteres y despues se muestra el resutlado en consola.
+    En caso de que se obtenga el texto, se cuentan los caracteres y despues se muestra el resutlado en consola.
     Se muestra en consola una separación (tres guiones intercalados entre dos lineas vacías).
     Finalmente se calcula el número de palabras únicas que hay en el texto junto con el número de veces que aparecen en el texto y se muestran ordenados por el número de veces que aparecen y alfabéticamente.
     '''
-    # TODO: poner locale.setlocale en la parte de ordenar palabras para no tener que tenerlo en el main?
-    locale.setlocale(locale.LC_ALL, '')
-
     texto = obtener_texto()
     if texto == None:
         return
@@ -23,43 +20,6 @@ def main():
 
     ranking = clasificar_palabras(texto)
     mostrar_palabras(ranking)
-
-
-def clasificar_palabras(texto):
-    '''
-    Recibe una cadena de texto y devuelve una lista compuesta por diccionarios. En los diccionarios tenemos dos claves ('palabra' y 'ocurrencias', siendo la primera la palabra en si y la segunda el número de veces que aparece en el texto). La lista tendrá un diccionario por cada palabra única que se encuentre en el texto (se ignoran las diferencias de mayúsculas y minúsuculas) y la palabra se guardará en el formato de título (primera letra en mayúscula el resto en minúscula).
-
-    Explicar aquí el regex utilizado, explicar también el re.IGNORECASE en vez de /regex/i.
-
-    Explicar también la parte de ordenar las palabras con el lambda, explicar también el locale.strxfrm para poder ordenar las palabras alfabéticamente teniendo en cuenta acentos etc.
-    '''
-    patron_palabras_unicas = r'(\w+\b)(?!.*\1\b)'
-    palabras_unicas = re.findall(patron_palabras_unicas, texto, re.IGNORECASE)
-    palabras_clasificadas = []
-    for palabra in palabras_unicas:
-        num_ocurrencias = len(re.findall(f'{palabra}', texto, re.IGNORECASE))
-        palabras_clasificadas.append(
-            {'palabra': palabra.title(), 'ocurrencias': num_ocurrencias})
-
-    # Ordenamos palabras por número de ocurrencias (de mayor a menor)
-    # y después alfabeticamente por la palabra en sí
-    # Se utiliza locale.strxfrm para ordenar alfabeticamente con las
-    # tildes etc
-    palabras_clasificadas.sort(
-        key=lambda p: (-p['ocurrencias'], locale.strxfrm(p['palabra'])))
-
-    return palabras_clasificadas
-
-
-def mostrar_palabras(texto):
-    '''
-    Recibe una lista de diccionarios (con las claves 'palabra' y 'ocurrencias', siendo la primera la palabra en si y la segunda el número de veces que aparece en el texto) y los muestra en consola.
-    '''
-    for palabra in texto:
-        texto_palabra = palabra['palabra']
-        num_palabra = palabra['ocurrencias']
-        print(
-            f'{texto_palabra} aparece {num_palabra} {"veces" if num_palabra > 1 else "vez"}.')
 
 
 def contar_caracteres(texto):
@@ -83,6 +43,45 @@ def contar_caracteres(texto):
     num_palabras = len(palabras)
 
     return (num_caracteres, num_caracteres_sin_espacios_en_blanco, num_palabras)
+
+
+def clasificar_palabras(texto):
+    '''
+    Recibe una cadena de texto y devuelve una lista compuesta por diccionarios. En los diccionarios tenemos dos claves ('palabra' y 'ocurrencias', siendo la primera la palabra en si y la segunda el número de veces que aparece en el texto). La lista tendrá un diccionario por cada palabra única que se encuentre en el texto (se ignoran las diferencias de mayúsculas y minúsuculas) y la palabra se guardará en el formato de título (primera letra en mayúscula el resto en minúscula).
+
+    Explicar aquí el regex utilizado, explicar también el re.IGNORECASE en vez de /regex/i.
+
+    Explicar también la parte de ordenar las palabras con el lambda, explicar también el locale.strxfrm para poder ordenar las palabras alfabéticamente teniendo en cuenta acentos etc.
+    '''
+    patron_palabras_unicas = r'(\w+\b)(?!.*\1\b)'
+    palabras_unicas = re.findall(patron_palabras_unicas, texto, re.IGNORECASE)
+    palabras_clasificadas = []
+    for palabra in palabras_unicas:
+        num_ocurrencias = len(re.findall(f'{palabra}', texto, re.IGNORECASE))
+        palabras_clasificadas.append(
+            {'palabra': palabra.title(), 'ocurrencias': num_ocurrencias})
+
+    # Ordenamos palabras por número de ocurrencias (de mayor a menor)
+    # y después alfabeticamente por la palabra en sí
+    # Se utiliza locale.strxfrm para ordenar alfabeticamente con las
+    # tildes etc, para poder utilizar strxfrm correctamente, iniciamos (seteamos? mirar)
+    # el locale
+    locale.setlocale(locale.LC_ALL, '')
+    palabras_clasificadas.sort(
+        key=lambda p: (-p['ocurrencias'], locale.strxfrm(p['palabra'])))
+
+    return palabras_clasificadas
+
+
+def mostrar_palabras(texto):
+    '''
+    Recibe una lista de diccionarios (con las claves 'palabra' y 'ocurrencias', siendo la primera la palabra en si y la segunda el número de veces que aparece en el texto) y los muestra en consola.
+    '''
+    for palabra in texto:
+        texto_palabra = palabra['palabra']
+        num_palabra = palabra['ocurrencias']
+        print(
+            f'{texto_palabra} aparece {num_palabra} {"veces" if num_palabra > 1 else "vez"}.')
 
 
 def mostrar_conteos_caracteres(num_caracteres, num_caracteres_sin_espacios_en_blanco, num_palabras):
