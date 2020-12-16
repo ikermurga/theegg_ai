@@ -1,6 +1,6 @@
 import re
-
-# TODO: se ordena antes z que ú en palabras, por qué??? arreglar!!
+import locale
+locale.setlocale(locale.LC_ALL, '')
 
 
 def main():
@@ -28,8 +28,10 @@ def clasificar_palabras(texto):
 
     # Ordenamos palabras por número de ocurrencias (de mayor a menor)
     # y después alfabeticamente por la palabra en sí
-    # TODO: ordena antes z que ú, corregir esto!!!
-    palabras_clasificadas.sort(key=lambda p: (-p['ocurrencias'], p['palabra']))
+    # Se utiliza locale.strxfrm para ordenar alfabeticamente con las
+    # tildes etc
+    palabras_clasificadas.sort(
+        key=lambda p: (-p['ocurrencias'], locale.strxfrm(p['palabra'])))
 
     return palabras_clasificadas
 
