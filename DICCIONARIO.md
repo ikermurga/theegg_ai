@@ -3,6 +3,11 @@ La primera persona en programar en la historia, Ada Lovelace se basó en el dise
 
 ---
 
+**AJAX**\
+AJAX (cuyo acrónimo hace referencia a _Asynchronous JavaScript and XML_, o _JavaScript Asíncrono y XML_ en castellano) es una técnica web que combina varias tecnologías para poder hacer que solámente se actualice una parte específica de la página en vez de tener que cargar la página por completo (y así poder tener una página más rápida e interactiva). Las tecnologías utilizadas por AJAX son HTML para mostrar la página, DOM para crear un objeto que represente la página, JavaScript para modificar el DOM dinámicamente y para hacer peticiones asíncronas al servidor (con el objeto _XMLHttpRequest_ ó con el mas moderno _fetch_). El formato original era el de _XML_ (de ahí el nombre de AJAX) aunque hoy en día es más común el formato _JSON_, pero podrías utilizar todo tipo de formatos si quisieramos.
+
+---
+
 **Álgebra Booleana**\
 Las normas que rigen las operaciones sobre valores lógicos. Hay 12 reglas que representan diferentes operaciones y difieren en resultado de las operaciones del álgebra tradicional.
 
@@ -48,6 +53,11 @@ Los primeros ordenadores tenían una serie de instrucciones fijas que realizaban
 
 ---
 
+**Asíncrono**\
+A diferencia que en un comportatmiento de un programa _síncrono_, el comportamiento _asíncrono_ nos va a permitir ejecutar nuestros procesos en varios _hilos de ejecución_ o lo que se conoce como _multithreading_. En un programa asíncrono no se crean colas ni bloqueos de programas ya que cada hilo se encarga de ejecutar independientemente la tarea que tiene asignada y devuelve el resultado cuando la ha terminado. Por lo tanto, la programación asíncrona soluciona el problema de bloqueos pero al mismo tiempo aumenta el coste del procesamiento ya que tiene que ejecutar más procesos simultáneamente.
+
+---
+
 **Ataque DDoS**\
 Tipo de _ataque informático_ cuyas siglas significan _Distributed Denial of Service_ (Denegación de Servicio Distribuido) que trata de utilizar múltiples ordenadores de modo simultaneo (de ahí _distribuido_) para enviar multitud de solicitudes simultáneas a un servicio en concreto. Esto puede causar una caída bien del servidor en sí o de la aplicación, siendo el resultado que el servicio deje de funcionar (y esta es la parte de _denegación de servicio_). Sería posible ejecutar un ataque DoS (Denegación de Servicio) desde un solo ordenador pero esto es mucho más fácil de detener.
 
@@ -78,6 +88,13 @@ Lenguaje de marcado que se utiliza en las páginas web para dar el formato al co
 
 ---
 
+**Código fuente**\
+El código fuente de un programa informático (o software) es un conjunto de líneas de texto con los pasos que debe seguir la computadora para ejecutar un programa. En un programa este está escrito en un lenguaje de programación y no es directamente ejecutable por el ordenador sino que tiene que ser traducido a un lenguaje que el ordenador pueda entender habiendo distintas maneras de realizar el proceso (compiladores, ensambladores, intérpretes, ...).
+
+En las páginas web el código fuente se refiere al _HTML_ que indica al navegador cómo tiene que visualizar la página web.
+
+---
+
 **Compilador**\
 Traduce un lenguaje de programación a instrucciones que el ordenador es capaz de ejecutar.
 
@@ -101,6 +118,13 @@ Persona que con fines maliciosos intenta acceder a sistemas informáticos ajenos
 **Crawling**\
 
 El _crawling_ (que podemos traducir como _arrastrase_) es una técnica en la que un tipo de programa automático (denominado _crawler_ o _araña_, siendo un tipo de _bot_ específico) se arrastra por las diferentes páginas webs imitando el comportamiento humano e inspeccionando las páginas de la web de una forma metódica y automatizada. Parte de este proceso será realizar la extracción de datos que las páginas tienen (_scrapping_) de tal manera que los datos que el crawler obtiene de las páginas web pueden ser utilizados por nuestra aplicación.
+
+---
+
+**CSS**\
+El _CSS_ (cuyo acrónimo significa _Cascading Style Sheets_ u \_Hojas de Estilo en Cascada) es un lenguaje de hojas de estilos que sirve para describir cómo presentar un documento escrito en HTML o XML (incluyendo dialectos de XML como SVG, MathML o XHTML). El CSS describe como se deben renderizar los componentes del documento al imprimir, en pantalla o en cualquier otro tipo de media.
+
+El CSS se utiliza en la web para describir al navegador _cómo_ mostrar los elementos de HTML de una página web.
 
 ---
 
@@ -171,7 +195,7 @@ Los distintos elementos físicos de los que consta un ordenador.
 ---
 
 **HTML**\
-Lenguaje de marcado que define el contenido, y le da atributos y características especiales al mismo, de una página web. Sus siglas significan (HyperText Markup Language - Lenguaje de Marcado de HyperTexto)
+Lenguaje que define el contenido, y le da atributos y características especiales al mismo, de una página web. Sus siglas significan _HyperText Markup Language_ o _Lenguaje de Marcado de HyperTexto_ en castellano. No es un lenguaje de programación, sino un _Lenguaje_ _descriptivo_, una serie de _etiquetas_ que el navegador interpretará de una u otra forma para mostrar distintos contenidos por pantalla. _Hypertexto_ se refiere a enlaces que conectan unas páginas a otras. HTML utiliza el _Marcado_ para anotar texto, imágenes y otro contenido para indicar a los navegadores cómo deben mostrarse y comportarse. Un elemento de HTML se separa del resto por _etiquetas_ que consisten del nombre del elemento rodeado de _<_ y _>_.
 
 ---
 
@@ -186,7 +210,7 @@ La Inteligencia Artificial (IA) es la un amplio campo en la informática dedicad
 ---
 
 **Interfaz**\
-La interfaz de usuario del sistema operativo es lo que permite al usuario comunicarse con el ordenador.
+Una interfaz (interfaces, en plural) se utiliza en informática para nombrar a la conexión funcional entre dos sistemas, programas, dispositivos o componentes de cualquier tipo, que proporciona una comunicación de distintos niveles, permitiendo el intercambio de información. Estos niveles podrían ser entre computadora y persona (interfaz de usuario que es parte del sistema operativo), entre pantalla y ratón (interfaz de hardware), la ventana de un programa (interfaz gráfico de software), entre dos dispositivos (interfaz física) o entre diferentes partes de un programa que se comunican como la API o DOM en los navegadores (interfaces lógicas).
 
 ---
 
@@ -231,7 +255,7 @@ Lenguaje de programación orientado a objetos. Permite codificar algoritmos fác
 ---
 
 **JavaScript**\
-Lenguaje de programación interpretado (no compilado), originalmente ideado para su uso principalmente en el lado del cliente. Para el uso del cliente es el lenguaje más utilizado aunque cada vez con más frameworks en vez de utilizarlo de modo único, y también es posible utilizarlo en el lado del servidor con node.
+JavaScript (muchas veces abreviado como JS) es un lenguaje orientado a objetos ligero, interpretado y con funciones de clase principal, y es conocido como el lenguaje de _script_ para las páginas web. Originalmente ideado para su uso principalmente en el lado del cliente. Para el uso del cliente es el lenguaje más utilizado aunque cada vez con más frameworks en vez de utilizarlo de modo único, y también es posible utilizarlo en muchos entornos fuera del navegador (por ejemplo en el servidor con Node). Debido a su construcción dinámica, se puede utilizar para escribir en distintos paradigmas de programación, como la orientada a objetos, la imperativa y la funcional.
 
 ---
 
@@ -399,6 +423,11 @@ El _data scrapping_ (cuya traducción literal sería _raspado de datos_) consist
 
 **Servidor Web**\
 Ordenador que ofrece recursos a los clientes que se encuentran en su red (ya sea una red local o global).
+
+---
+
+**Síncrono**\
+Por defecto las aplicaciones tienen el comportamiento de ser síncrono, es decir que un proceso desencadenado no va a permitir ejecutar otro hasta que este haya finalizado. Por ende, esto genera una cola o tráfico dentro de la aplicación. La cola o tráfico comienza a producirse y el hilo de ejecución no será liberado para otro usuario hasta que la primera ejecución haya sido completada. La programación síncrona se ejecuta en secuencia, hasta que una no termine la otra no comenzará. Esto es un funcionamiento contrario a el _asíncrono_.
 
 ---
 
