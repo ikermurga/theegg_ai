@@ -1,0 +1,33 @@
+header {
+    background-color: #405a01;
+    color: #dbe586;
+}
+
+body {
+    background-color: #95b038;
+}
+
+footer {
+    border-top: 1px solid #405a01;
+}
+
+footer h5,
+footer small {
+    color: #405a01;
+}
+
+header a:link,
+header a:visited,
+footer a:link,
+footer a:visited {
+    color: #dbe586;
+    text-decoration: none;
+}
+
+header a:hover,
+header a:active,
+footer a:link,
+footer a:visited {
+    color: #ffffff;
+    text-decoration: underline;
+}
