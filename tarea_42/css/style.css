@@ -31,3 +31,7 @@ footer a:visited {
     color: #ffffff;
     text-decoration: underline;
 }
+
+iframe {
+    width: 100%;
+}
