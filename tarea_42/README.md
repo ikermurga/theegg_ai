@@ -10,8 +10,8 @@
 
 -   Para añadir el video de YouTube y poder manejar los controles (para así poder ajustar el volumen) desde JavaScript, he utilizado la información disponible en [esta página de Google](https://developers.google.com/youtube/iframe_api_reference).
 
--   Para poder reconocer lo dicho por el usuario por micrófono he utilizado la información respecto a Speech Recognition API en [este video de Wes Bos](https://www.youtube.com/watch?v=0mJC0A72Fnw).
+-   Para poder reconocer lo dicho por el usuario por micrófono he utilizado la información respecto a Speech Recognition API en [este video de Wes Bos](https://www.youtube.com/watch?v=0mJC0A72Fnw). También he mirado el código en [esta página](https://www.google.com/intl/en/chrome/demos/speech.html) que tiene un ejemplo de uso.
 
 -   Ya que para que para que todo funcione correctamente se tienen que cargar tanto el video de YouTube como el Speech Recognition, he añadido indicadores a la página para saber a partir de qué momento van a funcionar correctamente los comandos de voz.
 
--   Si se usa no utilizando un servidor local, pide permiso para el micrófono en cada paso. Por lo tanto mejor utilizar un servidor (¿live server en vs code por ejemplo?)
+-   Si se usa no utilizando un servidor local, pide permiso para el micrófono en cada paso. Por lo tanto mejor utilizar un servidor (¿live server en vs code por ejemplo?)(probar en edge y firefox si funciona y si pasa lo mismo)
