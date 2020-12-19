@@ -19,13 +19,12 @@ const volumeDownBasqueCommand = 'soinua behera';
 
 // Preparando el video y enlazando sus eventos
 var playerReadyIndicator = document.getElementById('player-ready-indicator');
-function onPlayerReady() {
-    playerReadyIndicator.textContent = 'Video listo';
-}
-
 const playerController = PlayerController(onPlayerReady);
 function onYouTubeIframeAPIReady() {
     playerController.onYouTubeIframeAPIReady();
+}
+function onPlayerReady() {
+    playerReadyIndicator.textContent = 'Video listo';
 }
 
 // Preparando el reconocedor de voz y enlazando sus eventos
