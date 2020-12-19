@@ -38,20 +38,20 @@ function showRecognizedText(text) {
 
 // Selector de idiomas de interfaz
 document
-    .getElementById('lang-castellano')
+    .getElementById('lang-spanish')
     .addEventListener('change', languageChangeHandler);
 document
-    .getElementById('lang-ingles')
+    .getElementById('lang-english')
     .addEventListener('change', languageChangeHandler);
 document
-    .getElementById('lang-euskera')
+    .getElementById('lang-basque')
     .addEventListener('change', languageChangeHandler);
 
-const instructionsContainer = document.getElementById('instrucciones');
+const instructionsContainer = document.getElementById('instructions');
 
 function changeLanguageTo(language) {
     switch (language) {
-        case 'castellano':
+        case 'spanish':
             recognition.changeLanguage(
                 'es-ES',
                 volumeUpSpanishCommand,
@@ -60,7 +60,7 @@ function changeLanguageTo(language) {
             instructionsContainer.innerHTML = spanishInstructions;
             break;
 
-        case 'euskera':
+        case 'basque':
             recognition.changeLanguage(
                 'eu-ES',
                 volumeUpBasqueCommand,
@@ -69,7 +69,7 @@ function changeLanguageTo(language) {
             instructionsContainer.innerHTML = basqueInstructions;
             break;
 
-        case 'ingles':
+        case 'english':
             recognition.changeLanguage(
                 'en-US',
                 volumeUpEnglishCommand,
