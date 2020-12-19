@@ -18,13 +18,9 @@ subir el volumen y
 <strong>${volumeDownBasqueCommand}</strong> para bajarlo.`;
 
 // Preparando el video y enlazando sus eventos
-var playerReadyIndicator = document.getElementById('player-ready-indicator');
-const playerController = PlayerController(onPlayerReady);
+const playerController = PlayerController();
 function onYouTubeIframeAPIReady() {
     playerController.onYouTubeIframeAPIReady();
-}
-function onPlayerReady() {
-    playerReadyIndicator.textContent = 'Video listo';
 }
 
 // Preparando el reconocedor de voz y enlazando sus eventos

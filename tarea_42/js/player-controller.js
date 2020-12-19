@@ -1,4 +1,4 @@
-function PlayerController(onReadyCb) {
+function PlayerController() {
     // This code loads the IFrame Player API code asynchronously.
     var tag = document.createElement('script');
 
@@ -14,15 +14,9 @@ function PlayerController(onReadyCb) {
             height: '390',
             width: '640',
             videoId: 'M7lc1UVf-VE',
-            events: {
-                onReady: onPlayerReady,
-            },
         });
     }
 
-    function onPlayerReady() {
-        onReadyCb();
-    }
     function lowerPlayerVolume() {
         var volume = player.getVolume();
         volume -= 20;
