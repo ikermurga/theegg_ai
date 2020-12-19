@@ -1,12 +1,12 @@
 // Constantes
-const instruccionesCastellano = `En castellano, dí
+const spanishInstructions = `En castellano, dí
 <strong>volumen arriba</strong> para subir el
 volumen y <strong>volumen abajo</strong> para
 bajarlo.`;
-const instruccionesIngles = `En inglés, dí <strong>volume up</strong> para
+const englishInstructions = `En inglés, dí <strong>volume up</strong> para
 subir el volumen y
 <strong>volume down</strong> para bajarlo.`;
-const instruccionesEuskera = `En euskera, dí <strong>soinua gora</strong> para
+const basqueInstructions = `En euskera, dí <strong>soinua gora</strong> para
 subir el volumen y
 <strong>soinua behera</strong> para bajarlo.`;
 
@@ -30,6 +30,8 @@ function onPlayerReady() {
 // Preparando el reconocedor de voz y enlazando sus eventos
 const recognition = CommandRecognition(
     'spanish',
+    volumeUpSpanishCommand,
+    volumeDownSpanishCommand,
     playerController.raisePlayerVolume,
     playerController.lowerPlayerVolume,
     showRecognizedText
@@ -49,23 +51,38 @@ document
     .getElementById('lang-euskera')
     .addEventListener('change', languageChangeHandler);
 
-const instruccionesContainer = document.getElementById('instrucciones');
+const instructionsContainer = document.getElementById('instrucciones');
 
 function changeLanguageTo(language) {
     switch (language) {
         case 'castellano':
-            recognition.changeLanguage('spanish', 'es-ES');
-            instruccionesContainer.innerHTML = instruccionesCastellano;
+            recognition.changeLanguage(
+                'spanish',
+                'es-ES',
+                volumeUpSpanishCommand,
+                volumeDownSpanishCommand
+            );
+            instructionsContainer.innerHTML = spanishInstructions;
             break;
 
         case 'euskera':
-            recognition.changeLanguage('basque', 'eu-ES');
-            instruccionesContainer.innerHTML = instruccionesEuskera;
+            recognition.changeLanguage(
+                'basque',
+                'eu-ES',
+                volumeUpBasqueCommand,
+                volumeDownBasqueCommand
+            );
+            instructionsContainer.innerHTML = basqueInstructions;
             break;
 
         case 'ingles':
-            recognition.changeLanguage('english', 'en-US');
-            instruccionesContainer.innerHTML = instruccionesIngles;
+            recognition.changeLanguage(
+                'english',
+                'en-US',
+                volumeUpEnglishCommand,
+                volumeDownEnglishCommand
+            );
+            instructionsContainer.innerHTML = englishInstructions;
             break;
     }
 }

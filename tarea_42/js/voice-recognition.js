@@ -1,5 +1,7 @@
 function CommandRecognition(
     selectedLanguage,
+    raiseVolumeCommand,
+    lowerVolumeCommand,
     raisePlayerVolumeFn,
     lowerPlayerVolumeFn,
     recognizedTextCallback
@@ -28,25 +30,13 @@ function CommandRecognition(
     });
 
     function changeVolumeDependingOnTranscript(transcript) {
-        let volumeUpCommand = '';
-        let volumeDownCommand = '';
-        if (selectedLanguage === 'english') {
-            volumeUpCommand = volumeUpEnglishCommand;
-            volumeDownCommand = volumeDownEnglishCommand;
-        } else if (selectedLanguage === 'spanish') {
-            volumeUpCommand = volumeUpSpanishCommand;
-            volumeDownCommand = volumeDownSpanishCommand;
-        } else if (selectedLanguage === 'basque') {
-            volumeUpCommand = volumeUpBasqueCommand;
-            volumeDownCommand = volumeDownBasqueCommand;
-        }
         let volumeUpCommands = timesTargetTextIsInText(
             transcript,
-            volumeUpCommand
+            raiseVolumeCommand
         );
         let volumeDownCommands = timesTargetTextIsInText(
             transcript,
-            volumeDownCommand
+            lowerVolumeCommand
         );
 
         // devolver lo que está reconociendo el micrófono
@@ -77,9 +67,16 @@ function CommandRecognition(
 
     recognition.start();
 
-    function changeLanguage(languageName, languageCode) {
+    function changeLanguage(
+        languageName,
+        languageCode,
+        languageRaiseVolumeCommand,
+        languageLowerVolumeCommand
+    ) {
         selectedLanguage = languageName;
         recognition.lang = languageCode;
+        raiseVolumeCommand = languageRaiseVolumeCommand;
+        lowerVolumeCommand = languageLowerVolumeCommand;
     }
 
     return {
