@@ -25,7 +25,7 @@ function onYouTubeIframeAPIReady() {
 
 // Preparando el reconocedor de voz y enlazando sus eventos
 const recognition = CommandRecognition(
-    'spanish',
+    'es-ES',
     volumeUpSpanishCommand,
     volumeDownSpanishCommand,
     playerController.raisePlayerVolume,
@@ -53,7 +53,6 @@ function changeLanguageTo(language) {
     switch (language) {
         case 'castellano':
             recognition.changeLanguage(
-                'spanish',
                 'es-ES',
                 volumeUpSpanishCommand,
                 volumeDownSpanishCommand
@@ -63,7 +62,6 @@ function changeLanguageTo(language) {
 
         case 'euskera':
             recognition.changeLanguage(
-                'basque',
                 'eu-ES',
                 volumeUpBasqueCommand,
                 volumeDownBasqueCommand
@@ -73,7 +71,6 @@ function changeLanguageTo(language) {
 
         case 'ingles':
             recognition.changeLanguage(
-                'english',
                 'en-US',
                 volumeUpEnglishCommand,
                 volumeDownEnglishCommand

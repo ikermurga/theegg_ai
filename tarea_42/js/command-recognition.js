@@ -1,5 +1,5 @@
 function CommandRecognition(
-    selectedLanguage,
+    languageCode,
     raiseVolumeCommand,
     lowerVolumeCommand,
     raisePlayerVolumeFn,
@@ -10,7 +10,7 @@ function CommandRecognition(
         window.SpeechRecognition || window.webkitSpeechRecognition;
 
     const recognition = new SpeechRecognition();
-    recognition.lang = 'es-ES';
+    recognition.lang = languageCode;
     recognition.interimResults = true;
 
     let timesRaised = 0;
@@ -68,12 +68,10 @@ function CommandRecognition(
     recognition.start();
 
     function changeLanguage(
-        languageName,
         languageCode,
         languageRaiseVolumeCommand,
         languageLowerVolumeCommand
     ) {
-        selectedLanguage = languageName;
         recognition.lang = languageCode;
         raiseVolumeCommand = languageRaiseVolumeCommand;
         lowerVolumeCommand = languageLowerVolumeCommand;
