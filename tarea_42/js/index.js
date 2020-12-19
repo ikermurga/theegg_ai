@@ -1,21 +1,21 @@
 // Constantes
-const spanishInstructions = `En castellano, dí
-<strong>volumen arriba</strong> para subir el
-volumen y <strong>volumen abajo</strong> para
-bajarlo.`;
-const englishInstructions = `En inglés, dí <strong>volume up</strong> para
-subir el volumen y
-<strong>volume down</strong> para bajarlo.`;
-const basqueInstructions = `En euskera, dí <strong>soinua gora</strong> para
-subir el volumen y
-<strong>soinua behera</strong> para bajarlo.`;
-
 const volumeUpEnglishCommand = 'volume up';
 const volumeDownEnglishCommand = 'volume down';
 const volumeUpSpanishCommand = 'volumen arriba';
 const volumeDownSpanishCommand = 'volumen abajo';
-const volumeUpBasqueCommand = 'soinua gora';
-const volumeDownBasqueCommand = 'soinua behera';
+const volumeUpBasqueCommand = 'igo bolumena';
+const volumeDownBasqueCommand = 'jaitsi bolumena';
+
+const spanishInstructions = `En castellano, dí
+<strong>${volumeUpSpanishCommand}</strong> para subir el
+volumen y <strong>${volumeDownSpanishCommand}</strong> para
+bajarlo.`;
+const englishInstructions = `En inglés, dí <strong>${volumeUpEnglishCommand}</strong> para
+subir el volumen y
+<strong>${volumeDownEnglishCommand}</strong> para bajarlo.`;
+const basqueInstructions = `En euskera, dí <strong>${volumeUpBasqueCommand}</strong> para
+subir el volumen y
+<strong>${volumeDownBasqueCommand}</strong> para bajarlo.`;
 
 // Preparando el video y enlazando sus eventos
 var playerReadyIndicator = document.getElementById('player-ready-indicator');
