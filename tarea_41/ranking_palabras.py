@@ -69,7 +69,8 @@ def clasificar_palabras(texto):
     # obtenida y el número de veces que aparece en el texto
     palabras_clasificadas = []
     for palabra in palabras_unicas:
-        num_ocurrencias = len(re.findall(f'{palabra}', texto, re.IGNORECASE))
+        num_ocurrencias = len(re.findall(
+            f'\\b{palabra}\\b', texto, re.IGNORECASE))
         palabras_clasificadas.append(
             {'palabra': palabra.title(), 'ocurrencias': num_ocurrencias})
 
