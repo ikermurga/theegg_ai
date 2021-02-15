@@ -73,6 +73,11 @@ Colección de información organizada de modo que se puede acceder rápidamente 
 
 ---
 
+**Bases de Datos Relacionales**\
+Colección de elementos de datos con relaciones pre-definadas entre ellos. Estos elementos están organizados en tablas con columnas y filas. Las tablas se utilizan para guardar la información de los objetos que serán representados en la base de datos.
+
+---
+
 **BIOS**\
 Sus siglas (Basic Input/Output System - Sistema de input-output básico) indica que se trata de la parte del ordenador que al iniciarse el mismo permite al sistema operativo dar y recibir comandos del hardware.
 
@@ -304,8 +309,25 @@ Una máscara de red define para un ordenador qué destinos a los que quiere acce
 
 ---
 
+**MongoDB**\
+Base de datos NoSQL que almacena los elementos en documentos parecidos a JSON, lo que supone que los campos de los documentos puede variar de elemento a elemento y son modificables en cualquier momento. Está principalmente estructurada para ser una base de datos distribuida, así que obtener una gran disponibilidad de la misma, poder escalarla horizontalmente y poder distribuirla geográficamente son varias de las ventajas que tiene.
+
+---
+
+**MySQL**\
+Base de datos relacional de open-source. El enfásis de sus creadores estaba en la velocidad y la facilidad de uso, lo que ha llevado a que sea una de las más utilizadas. Pero eso también supuso que ciertas funcionalidades de SQL (como por ejemplo la claúsula _FULL JOIN_) no están disponibles. Otra de las desventajas es cuando múltiples usuarios conectan simultáneamente a la base de datos.
+
+---
+
 **NoSQL**\
 Base de datos que no está estructurada de un modo relacional, en el que los datos se pueden guardar de modo más flexible y adaptable, por ejemplo la información puede estar compartida entre varios servidores en vez de tener que estar centralizada en uno único. Sus desventajas provienen precisamente de esa flexibilidad.
+
+Los principales tipos de bases de datos NoSQL son:
+
+-   Bases de datos de documentos: guardan los datos en documentos de formato similar a JSON.
+-   Bases de datos de claves-valor: cada elemento contiene claves y valores.
+-   Bases de datos de columna ancha: con columnas dinámicas, permite que diferentes filas tengan distinto número (y tipo) de columnas.
+-   Bases de datos de grafos: guardan los datos en nodos y aristas.
 
 ---
 
@@ -331,6 +353,11 @@ Técnica de _ingeniería social_ en la que se hace creer a la víctima que consi
 
 **PHP**\
 Lenguaje de programación generalmente ejecutado por un servidor para crear las páginas web que devuelve cuando recibe peticiones.
+
+---
+
+**postgreSQL**\
+Base de datos de objetos relacional creada con el objetivo de ser altamente extendsible y cumplir con todos los estándares de SQL. El ser una base de datos de objetos-relacional significa que aunque principalmente es una base de datos relacional también tiene funcionalidades más asociadas a bases de datos de objetos. Sus puntos fuertes son la integridad de los datos y la posibilidad de ejecutar comandos muy complejos, mientras que sus debilidades son precisamente una perdida de velocidad debido a que fue creada de manera extensible.
 
 ---
 
@@ -447,7 +474,14 @@ Las instrucciones que hacen que los diferentes componentes de hardware se relaci
 ---
 
 **SQL**\
-De las siglas Structured Query Language. Lenguaje utilizado para manejar los datos en una base de datos relacional (aquella base de datos en las que accedemos a los datos a partir de un punto y recorriendo los datos en base a sus relaciones con los otros puntos de datos).
+De las siglas Structured Query Language. Lenguaje utilizado para manejar los datos en una base de datos relacional (aquella base de datos en las que accedemos a los datos a partir de un punto y recorriendo los datos en base a sus relaciones con los otros puntos de datos) que permite guardar, manipular y obtener datos de la misma.
+
+El lenguaje de SQL se puede dividir en distintos elementos siendo estos:
+_Claúsulas_: cada una de estas realiza una función de la instrucción SQL.
+_Expresiones_: producen valores escalares o tablas de datos.
+_Predicados_: sirven para especificar condiciones que limitan los efectos de las declaraciones o consultas.
+_Consultas_: obtienen datos en base a ciertos criterios.
+_Instrucciones_: pueden tener efecto persistente en los datos y su schema (organización de los datos), puede controlar transacciones, el flujo del programa, las conexiones, sesiones o realizar diagnosticos.
 
 ---
 
