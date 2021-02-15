@@ -1,10 +1,10 @@
 // Constantes
-const volumeUpEnglishCommand = 'volume up';
-const volumeDownEnglishCommand = 'volume down';
-const volumeUpSpanishCommand = 'volumen arriba';
-const volumeDownSpanishCommand = 'volumen abajo';
-const volumeUpBasqueCommand = 'igo bolumena';
-const volumeDownBasqueCommand = 'jaitsi bolumena';
+const volumeUpEnglishCommand = 'raise';
+const volumeDownEnglishCommand = 'lower';
+const volumeUpSpanishCommand = 'subir';
+const volumeDownSpanishCommand = 'bajar';
+const volumeUpBasqueCommand = 'igo';
+const volumeDownBasqueCommand = 'jeitsi';
 
 const spanishInstructions = `En castellano, dí
 <strong>${volumeUpSpanishCommand}</strong> para subir el
