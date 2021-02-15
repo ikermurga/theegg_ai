@@ -21,7 +21,7 @@ FROM users;
 **Pregunta 2**\
 An illegal site's servers were seized in a recent operation. Please submit all users' details.
 
-La table de usuarios contiene:
+La tabla de usuarios contiene:
 
 -   GivenName
 -   Surname
