@@ -28,6 +28,11 @@ Un algoritmo que cifra una cadena (modifica la cadena de texto original en algo 
 
 ---
 
+**Algoritmos de ordenación**\
+Algoritmos cuyo fin es ordenar los elementos en una lista o un vector en una secuencia dada por una relación de orden. Varios algoritmos de búsqueda y de fusión de listas dependend de que los elementos estén ordenados para su correcto funcionamiento, de ahí la importancia de los algoritmos de ordenación.
+
+---
+
 **API**\
 Interfaz para comunicarse aplicaciones entre ellos. Un tipo de arquitectura que permite el acceso a diferentes funciones y métodos ofrecidos por una biblioteca o programa para ser utilizado por un segundo programa.
 
@@ -324,15 +329,29 @@ Base de datos que no está estructurada de un modo relacional, en el que los dat
 
 Los principales tipos de bases de datos NoSQL son:
 
--   Bases de datos de documentos: guardan los datos en documentos de formato similar a JSON.
--   Bases de datos de claves-valor: cada elemento contiene claves y valores.
--   Bases de datos de columna ancha: con columnas dinámicas, permite que diferentes filas tengan distinto número (y tipo) de columnas.
--   Bases de datos de grafos: guardan los datos en nodos y aristas.
+- Bases de datos de documentos: guardan los datos en documentos de formato similar a JSON.
+- Bases de datos de claves-valor: cada elemento contiene claves y valores.
+- Bases de datos de columna ancha: con columnas dinámicas, permite que diferentes filas tengan distinto número (y tipo) de columnas.
+- Bases de datos de grafos: guardan los datos en nodos y aristas.
+
+---
+
+**Notación asintótica**\
+Cuando analizamos el tiempo de ejecución de un algoritmo, tenemos que tener en cuenta el tamaño de su entrada ya que el tiempo variará según el mismo. Debemos al mismo tiempo fijarnos en cómo de rápido crece una función con el tamaño de la entrada. A esto lo llamamos la tasa de crecimiento del tiempo de ejecución. Si descartamos os términos menos significativos y las constantes, podemos enfocarnos en la parte importante del tiempo de ejecución de un algoritmo (su tasa de crecimiento). Definimos una notación asintótica aquella en la que descartamos los términos menos significativos y las constantes. Una forma común de notación asíntótica es la notación O Grande (o _Notación Big O_).
 
 ---
 
 **Notación Big-O**\
-Explica cómo varía el esfuerzo de la computación que tiene que realizar un algoritmo en base a los valores de entrada que recibe.
+La notación Big O (o notación O Grande) es un modo para determinar cómo varía el esfuerzo de la computación que tiene que realizar un algoritmo en base a los valores de entrada que recibe. El esfuerzo se puede definir como el rendimiento de un algoritmo (ya sea en cuanto a espacio en disco, recursos de memoria y ciclos del reloj del CPU) y tiempo de ejecución, entre otros factores. La notación O Grande se suele utilizar para medir el rendimiento en el peor de los casos y con gran cantidad de números de entrada, y en el mismo son tan importantes los rescursos utilizados tanto en casos medios como en los peores casos. Los casos medios o peores resultantes de tanto la cantidad como los tipos de datos de entrada, por ejemplo en un algoritmo de búsqueda podemos comprobar cuanto tarda en concluir que no elemento no está entre los elementos, en vez de hacer que busque el primero de todos.
+
+Los términos de complejidad Big O más utilizados son:
+
+- `O(1)` - constante.
+- `O(n)` - linear.
+- `O(log n)` - logarítmica.
+- `O(n^2)` - cuadrática.
+- `O(2^n)` - exponencial.
+- `O(n!)` - factorial.
 
 ---
 
@@ -393,13 +412,13 @@ Como parte del procesamiento del lenguaje natural se pueden hacer distintos tipo
 **Puertas Lógicas**\
 Combinación de diferentes modos de transistores que en ciertas configuraciones cumplen normas dependiendo de su objetivo.
 
--   **AND** - sólo está encendido si ambos inputs están encendidos
--   **NAND** - sólo está apagado si ambos inputs están encendidos
--   **OR** - está encendido si cualquiera de los dos input están encendidos
--   **NOR** - está apagado si cualquiera de los dos inputs están encendidos
--   **XOR** - está apagado si ambos inputs están en el mismo estado (o ambos apagados o ambos encendidos)
--   **XNOR** - está encendido si ambos inputs están en el mismo estado (o ambos apagados o ambos encendidos)
--   **NOT** - su estado es el contrario que el del input (apagado si encendido, encendido si apagado)
+- **AND** - sólo está encendido si ambos inputs están encendidos
+- **NAND** - sólo está apagado si ambos inputs están encendidos
+- **OR** - está encendido si cualquiera de los dos input están encendidos
+- **NOR** - está apagado si cualquiera de los dos inputs están encendidos
+- **XOR** - está apagado si ambos inputs están en el mismo estado (o ambos apagados o ambos encendidos)
+- **XNOR** - está encendido si ambos inputs están en el mismo estado (o ambos apagados o ambos encendidos)
+- **NOT** - su estado es el contrario que el del input (apagado si encendido, encendido si apagado)
 
 ---
 
@@ -508,8 +527,8 @@ Dispositivo electrónico que modifica una señal que recibe, ya sea interrumpien
 **Turing**\
 Alan Mathison Turing (1912, 1954, Reino Unido)\
 
--   **Maquina de Turing:** Importancia en la programación debido a la definición de las especificaciones de la máquina de Turing, una máquina hipotética que es capaz de ejecutar cualquier algoritmo que queramos. Aunque solamente teórico y no esté demostrado completamente, se acepta como teorema veraz. Una máquina de Turing que pueda simular una máquina de Turing se denomina una maquina universal de turing (UTM Universal Turing Machine).\
--   **Prueba de Turing:** Conocido en el mundo de la inteligencia artificial ya que fue el que ideó la prueba de Turing: una persona habla con una máquina o un humano (sin saber si es uno u otro), y si la máquina es capaz de convencer a la persona de que es una persona, demuestra que tiene inteligencia.
+- **Maquina de Turing:** Importancia en la programación debido a la definición de las especificaciones de la máquina de Turing, una máquina hipotética que es capaz de ejecutar cualquier algoritmo que queramos. Aunque solamente teórico y no esté demostrado completamente, se acepta como teorema veraz. Una máquina de Turing que pueda simular una máquina de Turing se denomina una maquina universal de turing (UTM Universal Turing Machine).\
+- **Prueba de Turing:** Conocido en el mundo de la inteligencia artificial ya que fue el que ideó la prueba de Turing: una persona habla con una máquina o un humano (sin saber si es uno u otro), y si la máquina es capaz de convencer a la persona de que es una persona, demuestra que tiene inteligencia.
 
 ---
 
