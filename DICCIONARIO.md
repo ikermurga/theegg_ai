@@ -337,7 +337,7 @@ Los principales tipos de bases de datos NoSQL son:
 ---
 
 **Notación asintótica**\
-Cuando analizamos el tiempo de ejecución de un algoritmo, tenemos que tener en cuenta el tamaño de su entrada ya que el tiempo variará según el mismo. Debemos al mismo tiempo fijarnos en cómo de rápido crece una función con el tamaño de la entrada. A esto lo llamamos la tasa de crecimiento del tiempo de ejecución. Si descartamos os términos menos significativos y las constantes, podemos enfocarnos en la parte importante del tiempo de ejecución de un algoritmo (su tasa de crecimiento). Definimos una notación asintótica aquella en la que descartamos los términos menos significativos y las constantes. Una forma común de notación asíntótica es la notación O Grande (o _Notación Big O_).
+Cuando analizamos el tiempo de ejecución de un algoritmo, tenemos que tener en cuenta el tamaño de su entrada ya que el tiempo variará según el mismo. Debemos al mismo tiempo fijarnos en cómo de rápido crece una función con el tamaño de la entrada. A esto lo llamamos la tasa de crecimiento del tiempo de ejecución. Si descartamos los términos menos significativos y las constantes, podemos enfocarnos en la parte importante del tiempo de ejecución de un algoritmo (su tasa de crecimiento). Definimos una notación asintótica aquella en la que descartamos los términos menos significativos y las constantes. Una forma común de notación asíntótica es la notación O Grande (o _Notación Big O_).
 
 ---
 
