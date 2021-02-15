@@ -13,7 +13,7 @@ def main():
     Finalmente se calcula el número de palabras únicas que hay en el texto junto con el número de veces que aparecen en el texto y se muestran ordenados por el número de veces que aparecen y alfabéticamente.
     '''
     texto = obtener_texto()
-    if texto == None:
+    if texto is None:
         return
 
     conteo = contar_caracteres(texto)
