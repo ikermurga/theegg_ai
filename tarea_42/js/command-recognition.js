@@ -1,3 +1,4 @@
+// Esta función inicializa el reconocimiento de voz
 function CommandRecognition(
     languageCode,
     raiseVolumeCommand,
@@ -6,6 +7,7 @@ function CommandRecognition(
     lowerPlayerVolumeFn,
     recognizedTextCallback
 ) {
+    // Inicializar el reconocimiento de voz
     window.SpeechRecognition =
         window.SpeechRecognition || window.webkitSpeechRecognition;
 
@@ -13,6 +15,9 @@ function CommandRecognition(
     recognition.lang = languageCode;
     recognition.interimResults = true;
 
+    // Llevar registro de cuantas veces se han reconocido los
+    // comandos de subir o bajar volumen (ya que en un solo comando
+    // podrían haberse repetido varias veces)
     let timesRaised = 0;
     let timesLowered = 0;
     recognition.addEventListener('result', function (event) {
@@ -29,6 +34,9 @@ function CommandRecognition(
         }
     });
 
+    // Recorre la trascripción del audio e incrementa los valores
+    // que se usan para ver las veces que se han reconocido los
+    // comandos de subir o bajar el volumen
     function changeVolumeDependingOnTranscript(transcript) {
         let volumeUpCommands = timesTargetTextIsInText(
             transcript,
@@ -39,7 +47,9 @@ function CommandRecognition(
             lowerVolumeCommand
         );
 
-        // devolver lo que está reconociendo el micrófono
+        // devolver lo que está reconociendo el micrófono,
+        // este es el texto que aparecerá en el navegador
+        // como comando reconocido
         recognizedTextCallback(transcript);
 
         while (timesRaised < volumeUpCommands) {
@@ -67,6 +77,11 @@ function CommandRecognition(
 
     recognition.start();
 
+    // Esta es la funcionalidad que hace que se pueda cambiar
+    // el idioma que se está reconociendo. Ya que lo vamos
+    // a querer ejecutar desde otras partes del código, lo
+    // devolvemos para poder ejecutarlo desde otras partes
+    // del código
     function changeLanguage(
         languageCode,
         languageRaiseVolumeCommand,

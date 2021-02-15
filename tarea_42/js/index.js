@@ -4,7 +4,7 @@ const volumeDownEnglishCommand = 'lower';
 const volumeUpSpanishCommand = 'subir';
 const volumeDownSpanishCommand = 'bajar';
 const volumeUpBasqueCommand = 'igo';
-const volumeDownBasqueCommand = 'jeitsi';
+const volumeDownBasqueCommand = 'jaitsi';
 
 const spanishInstructions = `En castellano, dí
 <strong>${volumeUpSpanishCommand}</strong> para subir el
@@ -32,8 +32,10 @@ const recognition = CommandRecognition(
     playerController.lowerPlayerVolume,
     showRecognizedText
 );
+// Función para mostrar el texto reconocido en el navegador
+const recognizedCommandElement = document.getElementById('recognized-command');
 function showRecognizedText(text) {
-    console.log(text);
+    recognizedCommandElement.innerText = text;
 }
 
 // Selector de idiomas de interfaz
@@ -49,6 +51,9 @@ document
 
 const instructionsContainer = document.getElementById('instructions');
 
+// Función ejecutada al cambiar el idioma de los comandos, modifica
+// el idioma del reconocedor de audio y modifica los comandos que
+// se muestran en el navegador
 function changeLanguageTo(language) {
     switch (language) {
         case 'spanish':
@@ -80,6 +85,8 @@ function changeLanguageTo(language) {
     }
 }
 
+// Comprueba qué idioma se ha seleccionado en el navegador
+// y envía la información a la función de cambiar lenguaje
 function languageChangeHandler(event) {
     changeLanguageTo(event.target.value);
 }
