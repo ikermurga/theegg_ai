@@ -98,6 +98,24 @@ Lenguaje de marcado que se utiliza en las páginas web para dar el formato al co
 
 ---
 
+**Búsqueda binaria**\
+También conocida como búsqueda de intervalo medio o búsqueda logarítmica, es un algoritmo de búsqueda que encuentra la posición de un valor en una lista ordenado. Compara el valor con el elemento en el medio de la lista, si no son iguales, la mitad en la cual el valor no puede estar es eliminada y la búsqueda continúa en la mitad restante hasta que el valor se encuentre.
+
+La búsqueda binaria es computada en el peor de los casos en un tiempo logarítmico, realizando O(log n) comparaciones, donde n es el número de elementos de la lista y log es el logaritmo. La búsqueda binaria requiere solamente O(1) en espacio, es decir, que el espacio requerido por el algoritmo es el mismo para cualquier cantidad de elementos en la lista.
+
+![búsqueda binaria](https://cdn-media-1.freecodecamp.org/images/BdVrmbkpWAEROeZzJh-WwglcO3ZvE92aE7Co)
+
+---
+
+**Búsqueda secuencial**\
+También conocido como _búsqueda lineal_, es un método para encontrar un valor objetivo dentro de una lista.Ésta comprueba secuencialmente cada elemento de la lista para el valor objetivo hasta que es encontrado o hasta que todos los elementos hayan sido comparados.
+
+En el peor de los casos (el elemento no se encuentra en la lista), el número de comparaciones que se deberá realizar es del número de elementos en la lista. Por lo tanto, en notación O Grande consideramos que la búsqueda secuencial tiene un coste de O(n).
+
+![búsqueda sequencial](https://cdn-media-1.freecodecamp.org/images/CMLgOmQiGx-An2R8TeY3yghPSmQzfHc4KCsa)
+
+---
+
 **Código fuente**\
 El código fuente de un programa informático (o software) es un conjunto de líneas de texto con los pasos que debe seguir la computadora para ejecutar un programa. En un programa este está escrito en un lenguaje de programación y no es directamente ejecutable por el ordenador sino que tiene que ser traducido a un lenguaje que el ordenador pueda entender habiendo distintas maneras de realizar el proceso (compiladores, ensambladores, intérpretes, ...).
 
