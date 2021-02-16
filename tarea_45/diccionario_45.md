@@ -346,10 +346,10 @@ Base de datos que no está estructurada de un modo relacional, en el que los dat
 
 Los principales tipos de bases de datos NoSQL son:
 
-- Bases de datos de documentos: guardan los datos en documentos de formato similar a JSON.
-- Bases de datos de claves-valor: cada elemento contiene claves y valores.
-- Bases de datos de columna ancha: con columnas dinámicas, permite que diferentes filas tengan distinto número (y tipo) de columnas.
-- Bases de datos de grafos: guardan los datos en nodos y aristas.
+-   Bases de datos de documentos: guardan los datos en documentos de formato similar a JSON.
+-   Bases de datos de claves-valor: cada elemento contiene claves y valores.
+-   Bases de datos de columna ancha: con columnas dinámicas, permite que diferentes filas tengan distinto número (y tipo) de columnas.
+-   Bases de datos de grafos: guardan los datos en nodos y aristas.
 
 ---
 
@@ -359,16 +359,18 @@ Cuando analizamos el tiempo de ejecución de un algoritmo, tenemos que tener en 
 ---
 
 **Notación Big-O**\
-La notación Big O (o notación O Grande) es un modo para determinar cómo varía el esfuerzo de la computación que tiene que realizar un algoritmo en base a los valores de entrada que recibe. El esfuerzo se puede definir como el rendimiento de un algoritmo (ya sea en cuanto a espacio en disco, recursos de memoria y ciclos del reloj del CPU) y tiempo de ejecución, entre otros factores. La notación O Grande se suele utilizar para medir el rendimiento en el peor de los casos y con gran cantidad de números de entrada, y en el mismo son tan importantes los rescursos utilizados tanto en casos medios como en los peores casos. Los casos medios o peores resultantes de tanto la cantidad como los tipos de datos de entrada, por ejemplo en un algoritmo de búsqueda podemos comprobar cuanto tarda en concluir que no elemento no está entre los elementos, en vez de hacer que busque el primero de todos.
+La notación Big O (o notación O Grande) es un modo para determinar cómo varía el esfuerzo de la computación que tiene que realizar un algoritmo en base a los valores de entrada que recibe. La letra O es utilizada porque el ratio de crecimiento de una función también suele conocerse como la orden de la función. La n por su parte representa un número o el tamaño de un conjunto de datos. El esfuerzo se puede definir como el rendimiento de un algoritmo (ya sea en cuanto a espacio en disco, recursos de memoria y ciclos del reloj del CPU) y tiempo de ejecución, entre otros factores.
+
+La notación O Grande se suele utilizar para medir el rendimiento en el peor de los casos y con gran cantidad de números de entrada, y en el mismo son tan importantes los rescursos utilizados tanto en casos medios como en los peores casos. Los casos medios o peores resultantes de tanto la cantidad como los tipos de datos de entrada, por ejemplo en un algoritmo de búsqueda podemos comprobar cuanto tarda en concluir que no elemento no está entre los elementos, en vez de hacer que busque el primero de todos.
 
 Los términos de complejidad Big O más utilizados son:
 
-- `O(1)` - constante.
-- `O(n)` - linear.
-- `O(log n)` - logarítmica.
-- `O(n^2)` - cuadrática.
-- `O(2^n)` - exponencial.
-- `O(n!)` - factorial.
+-   `O(1)` - constante.
+-   `O(n)` - linear.
+-   `O(log n)` - logarítmica.
+-   `O(n^2)` - cuadrática.
+-   `O(2^n)` - exponencial.
+-   `O(n!)` - factorial.
 
 ---
 
@@ -419,23 +421,23 @@ A la hora de que un programa analice un lenguaje hace falta un modelización mat
 
 Como parte del procesamiento del lenguaje natural se pueden hacer distintos tipos de análisis, que se llevarán a cabo o no dependiendo del objetivo de la aplicación. Estos son:
 
-- **Análisis morfológico o léxico** - Consiste en el análisis interno de las palabras que forman oraciones para extraer lemas, rasgos flexivos, unidades léxica compuestas. Es esencial para la información básica - categoría sintáctica y significado léxico.
-- **Análisis sintáctico** - Consiste en el análisis de la estructura de las oraciones de acuerdo con el modelo gramatical empleado (lógico o estadístico).
-- **Análisis semántico** - Proporciona la interpretación de las oraciones, una vez eliminadas las ambigüedades morfosintácticas.
-- **Análisis pragmático** - Incorpora el análisis del contexto de uso a la interpretación final. Aquí se incluye el tratamiento del lenguaje figurado (metáfora e ironía) como el conocimiento del mundo específico necesario para entender un texto especializado.
+-   **Análisis morfológico o léxico** - Consiste en el análisis interno de las palabras que forman oraciones para extraer lemas, rasgos flexivos, unidades léxica compuestas. Es esencial para la información básica - categoría sintáctica y significado léxico.
+-   **Análisis sintáctico** - Consiste en el análisis de la estructura de las oraciones de acuerdo con el modelo gramatical empleado (lógico o estadístico).
+-   **Análisis semántico** - Proporciona la interpretación de las oraciones, una vez eliminadas las ambigüedades morfosintácticas.
+-   **Análisis pragmático** - Incorpora el análisis del contexto de uso a la interpretación final. Aquí se incluye el tratamiento del lenguaje figurado (metáfora e ironía) como el conocimiento del mundo específico necesario para entender un texto especializado.
 
 ---
 
 **Puertas Lógicas**\
 Combinación de diferentes modos de transistores que en ciertas configuraciones cumplen normas dependiendo de su objetivo.
 
-- **AND** - sólo está encendido si ambos inputs están encendidos
-- **NAND** - sólo está apagado si ambos inputs están encendidos
-- **OR** - está encendido si cualquiera de los dos input están encendidos
-- **NOR** - está apagado si cualquiera de los dos inputs están encendidos
-- **XOR** - está apagado si ambos inputs están en el mismo estado (o ambos apagados o ambos encendidos)
-- **XNOR** - está encendido si ambos inputs están en el mismo estado (o ambos apagados o ambos encendidos)
-- **NOT** - su estado es el contrario que el del input (apagado si encendido, encendido si apagado)
+-   **AND** - sólo está encendido si ambos inputs están encendidos
+-   **NAND** - sólo está apagado si ambos inputs están encendidos
+-   **OR** - está encendido si cualquiera de los dos input están encendidos
+-   **NOR** - está apagado si cualquiera de los dos inputs están encendidos
+-   **XOR** - está apagado si ambos inputs están en el mismo estado (o ambos apagados o ambos encendidos)
+-   **XNOR** - está encendido si ambos inputs están en el mismo estado (o ambos apagados o ambos encendidos)
+-   **NOT** - su estado es el contrario que el del input (apagado si encendido, encendido si apagado)
 
 ---
 
@@ -544,8 +546,8 @@ Dispositivo electrónico que modifica una señal que recibe, ya sea interrumpien
 **Turing**\
 Alan Mathison Turing (1912, 1954, Reino Unido)\
 
-- **Maquina de Turing:** Importancia en la programación debido a la definición de las especificaciones de la máquina de Turing, una máquina hipotética que es capaz de ejecutar cualquier algoritmo que queramos. Aunque solamente teórico y no esté demostrado completamente, se acepta como teorema veraz. Una máquina de Turing que pueda simular una máquina de Turing se denomina una maquina universal de turing (UTM Universal Turing Machine).\
-- **Prueba de Turing:** Conocido en el mundo de la inteligencia artificial ya que fue el que ideó la prueba de Turing: una persona habla con una máquina o un humano (sin saber si es uno u otro), y si la máquina es capaz de convencer a la persona de que es una persona, demuestra que tiene inteligencia.
+-   **Maquina de Turing:** Importancia en la programación debido a la definición de las especificaciones de la máquina de Turing, una máquina hipotética que es capaz de ejecutar cualquier algoritmo que queramos. Aunque solamente teórico y no esté demostrado completamente, se acepta como teorema veraz. Una máquina de Turing que pueda simular una máquina de Turing se denomina una maquina universal de turing (UTM Universal Turing Machine).\
+-   **Prueba de Turing:** Conocido en el mundo de la inteligencia artificial ya que fue el que ideó la prueba de Turing: una persona habla con una máquina o un humano (sin saber si es uno u otro), y si la máquina es capaz de convencer a la persona de que es una persona, demuestra que tiene inteligencia.
 
 ---
 
