@@ -126,7 +126,6 @@ Persona que con fines maliciosos intenta acceder a sistemas informáticos ajenos
 ---
 
 **Crawling**\
-
 El _crawling_ (que podemos traducir como _arrastrase_) es una técnica en la que un tipo de programa automático (denominado _crawler_ o _araña_, siendo un tipo de _bot_ específico) se arrastra por las diferentes páginas webs imitando el comportamiento humano e inspeccionando las páginas de la web de una forma metódica y automatizada. Parte de este proceso será realizar la extracción de datos que las páginas tienen (_scrapping_) de tal manera que los datos que el crawler obtiene de las páginas web pueden ser utilizados por nuestra aplicación.
 
 ---
