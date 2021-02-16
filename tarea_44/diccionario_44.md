@@ -401,10 +401,10 @@ A la hora de que un programa analice un lenguaje hace falta un modelización mat
 
 Como parte del procesamiento del lenguaje natural se pueden hacer distintos tipos de análisis, que se llevarán a cabo o no dependiendo del objetivo de la aplicación. Estos son:
 
-    -Análisis morfológico o léxico. Consiste en el análisis interno de las palabras que forman oraciones para extraer lemas, rasgos flexivos, unidades léxica compuestas. Es esencial para la información básica: categoría sintáctica y significado léxico.
-    -Análisis sintáctico. Consiste en el análisis de la estructura de las oraciones de acuerdo con el modelo gramatical empleado (lógico o estadístico).
-    -Análisis semántico. Proporciona la interpretación de las oraciones, una vez eliminadas las ambigüedades morfosintácticas.
-    -Análisis pragmático. Incorpora el análisis del contexto de uso a la interpretación final. Aquí se incluye el tratamiento del lenguaje figurado (metáfora e ironía) como el conocimiento del mundo específico necesario para entender un texto especializado.
+- **Análisis morfológico o léxico** - Consiste en el análisis interno de las palabras que forman oraciones para extraer lemas, rasgos flexivos, unidades léxica compuestas. Es esencial para la información básica: categoría sintáctica y significado léxico.
+- **Análisis sintáctico** - Consiste en el análisis de la estructura de las oraciones de acuerdo con el modelo gramatical empleado (lógico o estadístico).
+- **Análisis semántico** - Proporciona la interpretación de las oraciones, una vez eliminadas las ambigüedades morfosintácticas.
+- **Análisis pragmático** - Incorpora el análisis del contexto de uso a la interpretación final. Aquí se incluye el tratamiento del lenguaje figurado (metáfora e ironía) como el conocimiento del mundo específico necesario para entender un texto especializado.
 
 ---
 
