@@ -30,7 +30,7 @@
 
 ![Operaciones por elemento en el ordenamiento por mezcla](img/análisis_o_grande.png)
 
--   Multiplicando estos factores vemos que la notación O Grande para el ordenamiento por mezcla es de **n _ log<sub>2</sub>n _ 1**, que reducimos a **n\*log<sub>2</sub>n**.
+-   Multiplicando estos factores vemos que la notación O Grande para el ordenamiento por mezcla es de **n\* log<sub>2</sub>n\*1**, que reducimos a **n\*log<sub>2</sub>n**.
 
 -   Después mostramos el resultado de ordenar la lista y creamos una variable con el elemento a buscar. Una vez más estas operaciones son constantes por lo que añadirían O(1).
 
